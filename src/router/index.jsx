@@ -35,6 +35,9 @@ import SkbPengawasBenihTanaman from "../pages/skb_pengawas_benih_tanaman/SkbPeng
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import DownloadSkd from "../pages/download_soal/skd/DownloadSkd";
+import LoginSkbPenyuluhPertanian3 from "../pages/skb_penyuluh_pertanian/skbpenyuluhpertanian3/LoginSkbPenyuluhPertanian3";
+import RoomSkbPenyuluhPertanian3 from "../pages/skb_penyuluh_pertanian/skbpenyuluhpertanian3/RoomSkbPenyuluhPertanian3";
+import ResultSkbPenyuluhPertanian3 from "../pages/skb_penyuluh_pertanian/skbpenyuluhpertanian3/ResultSkbPenyuluhPertanian3";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -89,6 +92,19 @@ const router = createBrowserRouter(
       <Route
         path="/skb-penyuluh-pertanian/resultskbpenyuluhpertanian2"
         element={<ResultSkbPenyuluhPertanian2 />}
+      />
+
+      <Route
+        path="/skb-penyuluh-pertanian/skb3"
+        element={<LoginSkbPenyuluhPertanian3 />}
+      />
+      <Route
+        path="/skd/roomskbpenyuluhpertanian3"
+        element={<RoomSkbPenyuluhPertanian3 />}
+      />
+      <Route
+        path="/skb-penyuluh-pertanian/resultskbpenyuluhpertanian3"
+        element={<ResultSkbPenyuluhPertanian3 />}
       />
 
       <Route

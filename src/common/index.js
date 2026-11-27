@@ -337,6 +337,13 @@ const skbPenyuluhPertanianList = [
   },
   {
     id: 3,
+    title: "SKB 3",
+    edition: "2026",
+    url: "skb-penyuluh-pertanian/skb3",
+    image: "/img/skb-penyuluhPertanian.jpg",
+  },
+  {
+    id: 4,
     title: "SKB Penyuluh Pertanian VIP 1 + Pembahasan",
     edition: "2026",
     url: "skb-penyuluh-pertanian/skbvip1",

@@ -1,62 +1,41 @@
 export const dataQues = [
   {
-    //1
+    //2 baru
     id: 1,
-    question: "21, 42, 126, 504, 2520, 15120, 105840, ..., ...",
-    options: [
-      "740880, 6828804",
-      "846720, 7620480",
-      "864720, 7782480",
-      "886420, 7620480",
-    ],
+    question: "2, 8, 5, 20, 14, 56, 47, ...",
+    options: ["180", "184", "188", "192"],
   },
   {
-    //2
+    //2 baru
     id: 2,
-    question: "1/3 dari (0,125 + 0,043 + 0,021) adalah",
-    options: ["0,620", "0,530", "0,063", "0,056"],
+    question: "z, x, u, q, l, ...",
+    options: ["g", "h", "f", "e"],
   },
   {
-    //0
+    //3 baru
     id: 3,
     question:
-      "Diketahui X = 19,95 % dari 77  dan Y =  77 % dari 19,95 , manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ...  ",
-    options: [
-      "X dan Y nilainya sama",
-      "Y > X",
-      "X - Y = bilangan negatife",
-      "X/Y = 1/77",
-    ],
+      "Diketahui X = - 2/16 + 9/8 + 20 x 0,7  dan Y =  - 66/24 + 9/12 + 0,5 x 16 , manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ...  ",
+    options: ["1/2 X = 1/5 Y", "5X = 2Y", "3X < 4Y", "1/2 X > Y"],
   },
   {
-    //2
+    //1 baru
     id: 4,
     question:
-      "Apabila suatu pekerjaan diselesaikan oleh 15 orang dalam waktu 10 hari. Nilai X = 20 dan Y = banyak orang yang dibutuhkan untuk menyelesaikan pekerjaan tersebut dalam waktu 5 hari. Manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ...  ",
-    options: [
-      "X = Y ",
-      "X > Y",
-      "X < Y ",
-      "Hubungan X dan Y tidak dapat ditentukan",
-    ],
+      "Diketahui X = 2  dan Y = 4. Nilai A = 5X - 3/2 Y dan B = 5/2 X + 3/2 Y , manakah hubungan yang benar antara kuantitas A dan B berikut berdasarkan informasi yang diberikan ...  ",
+    options: ["A/2 = B", "2A < B", "A > 3B", "A = 5/2 B"],
   },
   {
-    //1
+    //3 baru
     id: 5,
-    question:
-      " Nilai X = 555/666 dan Y = 444/555 . Manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ...  ",
-    options: [
-      "X = Y ",
-      "X > Y",
-      "X < Y ",
-      "Hubungan X dan Y tidak dapat ditentukan",
-    ],
+    question: " -306, -51, -45, -9, -4, -1, ..., ..., 4, 2, 4, 4, 5 ",
+    options: ["-1, 1", "-1, 0", "-2, 1", " 3, 1"],
   },
   {
-    //2
+    //2 baru
     id: 6,
-    question: "6, 9, 54, 51, ..., ..., 321, 324, 1.944",
-    options: ["52, 324", "54, 321", "54, 324", "52, 321"],
+    question: "A, B, C, F, E, D, G, H, I, L, ..., ...",
+    options: ["M, N", "N, M", "K, J", "J, K"],
   },
   {
     //2
@@ -65,205 +44,158 @@ export const dataQues = [
     options: ["5/241", "5/242", "5/243", "5/244"],
   },
   {
-    //3
+    //3 baru
     id: 8,
-    question: "1/2, 2/3, 5/6, 1, ...",
-    options: ["7/3", "9/6", "5/3", "7/6"],
+    question: "B, M, N, D, O, P, ...",
+    options: ["G", "Q", "R", "F"],
   },
   {
-    //2
+    //2 baru
     id: 9,
     question:
-      "Diketahui jarak kota A dan B adalah 100 km. Aldi berangkat dari kota A ke kota B dengan kecepatan 40 km/jam, disaat beersamaan slatem berangkat dari kota B ke kota A dengan kecepatan 60 km/jam. kira kira Aldi dan Slatem akan bertemu di mana?",
-    options: [
-      "60 km dari kota A",
-      "50 km dari kota B",
-      "40 km dari kota A",
-      "40 km dari kota B",
-    ],
+      "Agung berangkat dari kota A pukul 07.35 WIB dengan kecepatan 80 km/jam dan tiba di kota B pukul 10.05 WIB. Diketahui P = kecepatan Bus kedua melaju dari kota B ke kota A selama 120 menit dan Q = 75 km/jam. Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan data tersebut?",
+    options: ["1/2 P > 1/2 Q ", "2Q > 2P", "3/2 P = 2 Q", "3/4 p = 1/3 Q"],
   },
   {
-    //2
+    //1 baru
     id: 10,
     question:
-      "Maheksa dan Yahya berangkat dari Jakarta ke Bekasi. Maheksa berangkat pukul 05.00 WIB dengan kecepatan 75 km/jam, sampai di Bekasi pukul 09.00 WIB. Yahya berangkat pukul 05.30 WIB dengan kecepatan 50 km/jam, pukul berapakah Yahya sampai di Bekasi? ",
-    options: ["10.30 WIB", "11.10 WIB", "11.30 WIB", "11.50 WIB"],
+      "5 orang pekerja dapat menyelesaikan suatu pekerjaan selama 4 jam dan dapat selesai 40%. Berapa tambahan pekerja minimal jika pekerjaan tersebut harus dikerjakan selama 6 jam? ",
+    options: ["3", "4", "5", "6"],
   },
   {
-    //1
+    //3 baru
     id: 11,
     question:
-      "Agung ingin liburan di Kediri melalui Sidoarjo, Rumah Agung ada di Jember. Jika rute Jember ke Sidoarjo sebanyak 5 rute, sedangkan Sidoarjo ke Kediri ada 6 rute, maka banyaknya pilihan dari Jember ke Kediri pergi pulang dengan tidak boleh melalui rute yang sama adalah ",
-    options: ["30", "300", "600", "900"],
+      "Suatu pekerjaan di targetkan selesai dalam waktu 25 hari dengan 10 orang pekerja. Jika di hari ke-6 ada penambahan pekerja sebanyak 5 orang salam 4 hari, maka sisa pekerjaan akan selesai dalam waktu? ",
+    options: ["11", "12", "13", "14"],
   },
   {
-    //2
+    //1 baru
     id: 12,
     question:
-      "Gedung bank bergaya arsitecture abad pertengahan itu dibangun pada masa penjajahan belanda.\nKalimat yang polanya sama dengan kalimat tersebut adalah ...",
-    options: [
-      "candi borobudur dibangun oleh dinasti Syailendra dari Kerajaan Mataram Kuno.",
-      "Gizi yang berasal dari makanan memberikan energi untuk tubuh.",
-      "Calon Mahaasiswa baru dikumpulkan di Balairung UGM.",
-      "Pada masa penjajahan Belanda, bayak orang Jawa dikirim ke Suriname.",
-    ],
+      "Sebuah tim terdiri dari 10 pekerja mampu menyelesaikan pembangunan 1 rumah dalam 120 hari. jika terdapat 4 rumah yang harus diselesaikan dalam waktu 240 hari, berpa banyak pekerja yang diperlukan agar pekerjaan tersebut selesai tepat waktu?",
+    options: ["18", "20", "22", "24"],
   },
   {
-    //3
+    //2 baru
     id: 13,
     question:
-      "Para alumni SMA Sukasaya akan mengadakan perlombaan secara meriah. Kalimat berikut yang sepola dengan kalimat tersebut adalah, kecuali ...",
-    options: [
-      "Masyarakat membawa hadiah dengan hati-hati",
-      "Siswi TK itu memakan nasi dengan lambat",
-      "Pegawai itu membuka toko terburu-buru",
-      "Semua berita diberikan secara aktual dan terpercaya",
-    ],
+      "Suatu proyek ditargetkan selesai dalam 90 hari dengan 60 orang pekerja. Setelah 30 hari pelaksanaan, proyek tersebut dihentikan selama 15 hari. Jika kemampuan bekerja setiap orang sama dan agar proyek dapat diselesaikan tepat waktu maka pekerja tambahan yang dibutuhkan adalah ...",
+    options: ["40", "30", "20", "10"],
   },
   {
-    //2
+    //2 baru
     id: 14,
     question:
-      "Delapan Mahasasiswa dari Universitas Jember Melakukan rapat kegiatan bakti sosial kampus. Mahasiswa tersebut adalah Agung, Maheksa, Ulum, Yahya, Krisna, Aldi, Rizal, Angga. Mereka duduk melingkar dengan situasi sebagai berikut. Yahya duduk tepat bersebrangan dengan Agung. Krisna duduk di samping kiri Yahya. Maheksa duduk diantara Aldi dan Ulum. Angga duduk di antara Agung dan Rizal. Rizal duduk berhadapan dengan Maheksa. Ulum duduk di sisi kiri Agung. Apabila Yahya dan Maheksa bertukar tempat, siapakah yang duduk diantara Maheksa dan Rizal? ",
-    options: ["Aldi", "Angga", "Krisna", "Ulum"],
+      "Sebuah pembangunan masjid selesai oleh 40 orang pekerja dalam waktu 60 hari. Setelah dikerjakan selama 20 hari, pekerjaan dihentikan selama 10 hari karena suatu hal. Agar pembangunan masjid selesain tepat waktu, berapa banyak pekerja tambahan yang diperlukan?",
+    options: ["12", "13", "14", "15"],
   },
   {
-    //2
+    //3 baru
     id: 15,
     question:
-      "Suatu meja bundar dikelilingi empat buah kursi. Agung, Maheksa, Ulum dan Yahya menempati kursi tersebut. Meheksa dan Yahya duduk saling berhadapan. Jika Agung duduk di sebelah kiri Maheksa, maka pernyataan yang salah adalah ...",
-    options: [
-      "Maheksa duduk di sebelah kanan Agung",
-      "Yahya duduk di sebelah kanan Ulum",
-      "Ulum duduk di sebelah kiri Agung",
-      "Agugn duduk di sebelah kanan Yahya",
-    ],
+      "Jika 2 ekor sapi mampu menghabiskan 1 karung rumput dalam waktu 3 hari, maka 6 ekor sapu mampu menghabiskan 10 karung dalam waktu ...",
+    options: ["48", "24", "12", "10"],
   },
   {
-    //2
+    //2 baru
     id: 16,
     question:
-      " Nilai X = 240 x 236 - 238 x 238 dan Y = 348 x 348 - 349 x 347 . Manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ... ",
-    options: [
-      "X = Y ",
-      "X > Y",
-      "X < Y ",
-      "Hubungan X dan Y tidak dapat ditentukan",
-    ],
+      "Seekor ikan panjang kepala 10 cm. Panjang ekornya sama dengan panjang kepala ditambah setengah panjang tubuh. Panjang tubuh sama dengan panjang kepala ditambah panjang ekor. Berapakah panjang ikan seluruhnya?",
+    options: ["40 cm", "60 cm", "80 cm ", "100 cm"],
   },
   {
-    //1
+    //2 baru
     id: 17,
-    question:
-      " Diketahui sebuah pesawat terbang membutuhkan 12 detik untuk menempuh jarak 4 km. Nilai X = Kecepatan pesawat tersebut dalam satuan km/jam dan Y = 720 km/jam. Manakah hubungan yang benar antara kuantitas X dan Y berikut berdasarkan informasi yang diberikan ... ",
-    options: [
-      "X = Y ",
-      "X > Y",
-      "X < Y ",
-      "Hubungan X dan Y tidak dapat ditentukan",
-    ],
+    question: " A, D, H, M, S, ...",
+    options: ["X", "Y", "Z", "A"],
   },
   {
-    //0
+    //2 baru
     id: 18,
-    question: "..., ..., ..., 422, 1.266, 1.280, 3.840",
-    options: [
-      "122, 136, 408",
-      "164, 178, 412",
-      "120, 138, 408",
-      "128, 140, 406",
-    ],
+    question: "A, E, B, F, C, G, D, ..., ...",
+    options: ["J, I", "E, G", "H, E", "K, I"],
   },
   {
-    //1
+    //3 baru
     id: 19,
-    question: "..., ..., ..., 18, 72, 360, 2.160",
-    options: ["2, 6, 14", "3, 3, 6", "2, 4, 8", "3, 7, 12"],
+    question: "B, D, C, F, D, ..., ..., ..., F, L, G",
+    options: ["E, G, I", "G, E, K", "L, J, M", "H, E, J"],
   },
   {
-    //3
+    //3 baru
     id: 20,
     question:
-      "Bu Lili akan melakukan diskusi dengan enam siswanya dengan menempati delapan kursi yang tersusun melingkar. Bu Lili duduk berhadapan dengan Faiz. Bagus terpisah satu kursi di kiri Bu Lili dan menghadap Amanda. Calista duduk tepat di kanan Faiz dana menghadap  Eksanti. Jika Daniel duduk di kiri Faiz maka pernyataan yang benar adalah ... ",
-    options: [
-      "Amanda terpisah satu kursi dengan kursi kosong",
-      "Daniel menempati kursi tepat di sebelah kiri Amanda",
-      "Bagus dan Faiz dipisahkan oleh dua kursi",
-      "Kursi kosong ada diantara Bu Lili dan Bagus",
-    ],
+      "Delapan tahun yang lalu, usia Pak Eko empat kali usia anaknya. Jika saat ini usia anaknya 16 tahun, berapa usia pak Eko tahun depan?",
+    options: ["32", "33", "40", "41"],
   },
   {
-    //3
+    //2 baru
     id: 21,
-    question:
-      "Berikut hasil suvei tempat wisata di Jember. Pantai Payangan dan Pantai Watu Ulo dinyatakan bernilai sama, namun msah lebih kecil dibandingkan dengan Pantai Puger. Pantai Papuma lebih disukai dari Pantai Puger. Pantai Puger lebih disukai dari Pantai Paseban Berdasarkan survei tersebut, jika urutan Pantai Payangan berada tepat setelah Pantai Puger maka wisata yang paling sedikit diminati adalah",
-    options: [
-      "Pantai Papuma",
-      "Pantai Puger",
-      "Pantai Payangan",
-      "Pantai Paseban",
-    ],
+    question: "Matahari : Terang = Api : ...",
+    options: ["Asap", "Bara", "Panas", "Cahaya"],
   },
   {
-    //1
+    //2 baru
     id: 22,
-    question: "Pikiran : Otak = ... : ...",
+    question: "Wajah : Rona = ... : ...",
     options: [
-      "Buku : Printer",
-      "Kata-kata : Lisan",
-      "Komputer : Ketikan",
-      "Awan : Langit",
+      "Jaket : Kulit",
+      "Kertas : Tulis",
+      "Bendera : Berkibar",
+      "Buku : Gambar",
     ],
   },
   {
-    //2
+    //1 baru
     id: 23,
     question:
-      "Tiga kesenian negara A akan melakukan pertunjukan di negara F dan mereka pergi menggunakan pesawat. Terdapat penerbangan langsung dari negara A ke negara F. Namun, ada alternatif jalur lain yang lebih murah. Terdapat penerbangan dari negara A ke negara B atau negara C. Dari negara B ada penerbangan ke negara D. Dari negara C ada penerbangan ke negara E. Sementara itu dari negara D ada penerbangan langsung ke negara F, betu pula dari negara E ke negara F. Berapa alternatif jalur yang bisa ditempuh oleh tim kesenian negara A tersebut untuk melakukan perjalanan ke negera F?",
-    options: ["1 jalur", "2 jalur", "3 jalur", "4 jalur"],
+      "Seorang pedagang menjual barang dagangan dengan harga Rp 10.000 dan mendapat keuntungan 150% dari harga belinya. Berapa harga beli dari barang tersebut?",
+    options: ["Rp 3.000", "Rp 4.000", "Rp 4.500", "Rp 5.000"],
   },
   {
-    //3
+    //1 baru
     id: 24,
     question:
-      "Seorang politisi ingin berkampanye pada suatu daerah, yang akan dia kunjungi hanya ada 4 tempat dari kota G ke kota A pada deerah itu. Kota A hanya dapat ditempuh dari kota B, C, dan D. kota B dapat ditempuh dari E dan F. C hanya dapat ditempuh dari E, F hanya bisa ke B, sedangkan D, E, dan F bisa ditempuh dari G. Kota manakah yang urutan ketiga dia berkampanye jika salah satu saja yang dipilih ...",
-    options: ["F", "E", "D", "C"],
+      "Seorang karyawan mendapatkan upah Rp. 8.000/Jam. Dia bekerja dari pukul 08.00 hingga 16.00 dan dia akan memperolah upah tambahan 50% /jam jika lembur. Suatu hari dia membawa pulang upah Rp 80.000 maka jam berapa dia pulang ?",
+    options: ["17.00", "17.20", "17.40", "18.00"],
   },
   {
-    //0
+    //3 baru
     id: 25,
     question:
-      "Dalam sebuah pertandingan sepak bola, Grace harus mengoper bola ke beberapa pemain agar dapat menyarangkan bola ke gawang lawan. Di dekat gawang ada Marco, Grace bisa mengoper ke Haris dan Iwan. Haris bisa mengoper ke Karni dan Jaka, sedangkan Iwan bisa mengoper ke Jaka dan Luki. Jaka bisa mengoper ke Luki, tetapi tidak ke karni. Luki tidak bisa mengoper ke Marco, sedangkan Karni bisa mengoper ke Marco sehinggg Marco dapat menendang ke arah gawang lawan. Ada beberapa alternatif jalur yang bisa ditempuh agara boal dapat sampai dari Grace ke Marco?",
-    options: ["1 cara", "2 cara", "3 cara", "4 cara"],
+      "Suatu segitiga ABC, diketahui sudut A = 150 derjat, sisi B adalah 12 cm dan sisi C adalah 5 cm. Maka luas segitiga ABC adalah ...",
+    options: ["12 cm", "13 cm", "14 cm", "15 cm"],
   },
   {
-    //3
+    //2 baru
     id: 26,
-    question: "Hasil dari 6 + 0,75 - 5/2 adalah ...",
-    options: ["14/4", "15/4", "16/4", "17/4"],
+    question: "Domba : Taring = Burung : ...",
+    options: ["Sayap", "Paruh", "Sirip", "Kicau"],
   },
   {
-    //1
+    //1 baru
     id: 27,
     question:
-      "Pada saat menjelang liburan, Santi berencana pergi ke luar kota. Jika Santi pergi ke Yogyakarta. Ia akan mengajak adiknya. Jika Santi pergi ke Bali, ia akan mengajak temannya. Pada saat liburan, ia tidak mengajak adik atau temananya. Simpulan yang paling tepat adalah ...",
+      "Semua burung dapat terbang. Kapal terbang juga dapat terbang. Maka kesimpulannya adalah ...",
     options: [
-      "Santi tidak pergi ke Yogyakarta, tetapi ke Bali",
-      "Santi tidak pergi ke Bali atau ke Yogyakarta",
-      "Santi memutuskan libuaran ke kota lain",
-      "Santi pergi ke Bali atau Yogyakarta",
+      "Kapal terbang adalah burung",
+      "Tidak semua yang terbang adalah burung",
+      "Beberapa burung dapat terbang secepat kapal terbang",
+      "Tidak dapat diambil kesimpulan dari dua pernyataan di atas",
     ],
   },
   {
-    //1
+    //3 baru
     id: 28,
     question:
-      "Kegiatan ekstrakurikuler di luar ruangan jika diadakan pada hari Minggu. Jika kegiatanekstrakulikuler dilakukan di luar ruangan, siswa mengenakan pakaian dinas lapangan. Simpulan yang tepat adalah ...",
+      "Semua pemimpin memiliki pengikut. Semua pemimpin yang baik dicintai pengikutnya. Maka kesimpulannya adalah ...",
     options: [
-      "Jika kegiatan tidak diadakan pada hari Minggu, siswa tidak mengenakan pakaian dinas lapangan",
-      "Jika siswa tidak mengenakan pakaian dinas lapangan, kegiatan ekstrakurikuler tidak diadakan pada hari Minggu",
-      "Jika kegiatan ekstrakurikuler tidak dilakukan di luar ruangan, siswa tidak mengenakan pakaian dinas lapangan",
-      "Jika siswa mengenakan pakaian dinas lapangan, kegiatan ekstrakurikuler diadakan pada hari Minggu",
+      "Semua pemimpin pasti dicintai pengikutnya",
+      "Semua pemimpin pasti mencintai pengikutnya",
+      "Beberapa pemimpin bukan pemimpin yang baik",
+      "Tidak dapat diambil kesimpulan dari dua pernyataan di atas",
     ],
   },
   {
@@ -274,954 +206,957 @@ export const dataQues = [
     options: [
       "Maheksa menangis dengan keras",
       "Krisan membaca komik yang lucu",
-      "Siswa kelas 12 meranyakan kelulusan secara meriah",
+      "Siswa kelas 12 meranykan kelulusan secara meriah",
       "Yahya bekerja dengan giat",
     ],
   },
   {
-    //3
+    //1 baru
     id: 30,
     question:
-      "Kucing-kucing itu bertengger di atas dahan-dahan pohon. Kalimat yang mempunyai pola yang sama dengan pola tersebut adalah ",
+      "Tidak semua orang yang makan nasi minum air. Semua orang yang berolahraga minum air. Kesimpulan dari kedua premis tersebut adalah ...",
     options: [
-      "Mereka berdua saling berpeganagan tangan",
-      "Karya seni itu bertemakan nasionalisme",
-      "Ibu membeli sayur di pasar",
-      "Anak-anak sedang bermain di stadion",
+      "Semua yang makan nasi pasti minum air",
+      "Sebagian orang yang makan nasi mungkin tidak berolahraga",
+      "Semua orang yang olahraga juga makan nasi",
+      "Beberapa orang yang makan nasi juga berolahraga",
     ],
   },
   {
-    //2
+    //3 baru
     id: 31,
-    question:
-      "Jika hari panas, maka Nissa memakai topi. Nissa tidak memakai topi atau ia memakai payung. Nissa tidak memaki payung. Kesimpulan yang sah adalah ...",
+    question: "Buku : Membaca : Pengetahuan = ...",
     options: [
-      "Hari panas",
-      "Nissa memakai topi",
-      "Hari tidak panas",
-      "Hari panas dan Nissa memakai topi",
+      "Pensil : Menulis : Gambar",
+      "Kertas : Melukis : Seni",
+      "Radio : Mendengarkan : Musik",
+      "Komputer : Mengetik : Data",
     ],
   },
   {
-    //2
+    //2 baru
     id: 32,
     question:
-      "Kita mengetahui bahwa mobil memiliki kursi penumpang dan bagasi. Hubungan ini sama dengan ... ",
+      "Kasihan sekali orang itu. Hanya sendirian ia ketika mengalami kesusahan, tanpa ada saudara atau kerabatnya yang berusaha untuk membantunya. Pernaytaan tersebut dapat diperibahasakan dengan ...",
     options: [
-      "Pohon memerlukan air dan cahaya",
-      "Dalam pesawat ada pilot dan pramugari",
-      "Sepeda memiliki pedal dan roda",
-      "CPU memerlukan listrik dan monitor",
+      "Air lalu kubang tohor",
+      "Air mata jatuh ke perut",
+      "Air diminum rasa duri, nasi dimakan rasa sekam",
+      "Air susu dibalas air tuba",
     ],
   },
   {
-    //3
+    //3 baru
     id: 33,
     question:
-      "Pensil memiliki ujung pensil dan penghapus. Hubungan ini sama dengan ... ",
+      "Di sebuah ruang kelas, Enam siswa duduk dalam dua baris kursi yang saling berhadapa. Informasi mengenai duduk mereka adalah siswa A duduk satu deret dengan siswa B. Siswa C duduk di depan siswa D dan satu deret dengan siswa F. Siswa E duduk disebelah siswa F. Berdasarkan informasi tersebut, tentukan siapa yang duduk berjejer atau sederet dengan siswa A ... ",
     options: [
-      "Buku memiliki sampul dan halaman",
-      "Lampu memiliki bohlam dan sakelar",
-      "Sepatu memiliki tali dan sol",
-      "Kunci memiliki gagang dan gigi",
+      "Siswa B dan siswa C",
+      "Siswa E dan siswa D",
+      "Siswa F dan siswa E",
+      "Siswa B dan siswa D",
     ],
   },
   {
-    //2
+    //0 baru
     id: 34,
     question:
-      "Diketahui nilai X = 3/4 dan Y = 5. nilai A = 4X - 1/5 Y dan B = 1/3 X + Y. Manakah hubungan yang benar antara kuantitas A dan B berikut berdasarkan informasi yang diberikan ...",
-    options: ["3A = B", "A = 2B", "A < B", "A > B"],
+      "Siswa sekolah membeli sepatu dan kaos kaki dipasar minggu. Hubungan kalimata yang setara dengan kalimat tersebut adalah",
+    options: [
+      "Banyak orang yang membeli meja dan kursi di toko furniture",
+      "Andi makan jagung dan molen di pasar malam",
+      "Anton membeli rujak dan buah di lapangan denggung",
+      "Dani terkenal anak yang rajin dan pandai saat belajar di kelas",
+    ],
   },
   {
-    //0
+    //2 baru
     id: 35,
     question:
-      "Sebuah proyek dikerjakan oleh 40 pekerja dengan target selesai dalam 90 hari. Setelah berjalan selama 50 hari, 15 pekerja mengambil libur selama 4 hari. Agar proyek tetap selasai tepat waktu, berapa pekerja tambahan yang perlu ditambahkan? ",
-    options: ["2", "4", "6", "8"],
-  },
-  {
-    //1
-    id: 36,
-    question: "Kapan terjadinya peristiwa bom Hirosima di Jepang? ",
+      "Jika pantai di daerah X ramai dikunjungi wisatawan, perekonomian masyarakat daerah tersebut akan meningkat. Jika ekosistem di pantai daerah X tidak dijaga dengan baik, hasil tangkapan nelayan tersebut akan tercemar. Saat ini perekonomian masyarakat daerah X tidak mengalami peningkatan atau hasil tangkapan nelayan daerah X tidak tercemar. Simpulan yang tepat adalah ",
     options: [
-      "6 Agustus 1945",
-      "9 Agustus 1945",
-      "17 Agustus 1945",
-      "27 Agustus 1945",
+      "Pantai daerah X belum ramai dikunjungi wisatawan, tetapi ekosistem pantai daerah tersebut dijaga dengan baik",
+      "Pantai daerah X ramai dikunjungi wisatawan, tetapi ekosistem pantai daerah tersebut dijaga dengan baik",
+      "Pantai daerah X belum ramai dikunjungi wisatawan atau ekosistem pantai daerah tersebut dijaga dengan baik",
+      "Pantai daerah X ramai dikunjungi wisatawan atau ekosistem pantai daerah tersebut dijaga dengan baik",
     ],
   },
   {
-    //2
+    //3 baru
+    id: 36,
+    question:
+      "Pembagian kekuasaan menjadi salah satu fondasi penting untuk menjaga keseimbangan negara. Munurut UUD 1945, pasal berapakah yang secara eksplisit mengatur tentang kekuasaan pemerintah?",
+    options: ["Pasal 1", "Pasal 2", "Pasal 3", "Pasal 4"],
+  },
+  {
+    //2 baru
     id: 37,
     question:
-      "Keberagaman menjadi pisau bermata dua bagi Indonesia. Jika masyarakat menganggap hal itu positif, maka keberagaman akan mengakibatkan bersatunya seluruh komponen masnyarakat Indonesia. Jika masyarakat menganggap hal itu negatif maka akan berakibat pada perpecahan karena perbedaan budaya antara satu wilayah dengan wilayah lainnya. Peran nasionalisme yang diwujudkan melalui hal ini contohnya ...",
+      "Dari pilihan berikut manakah yang paling efektif sebagai langkah jangka panjang untuk memperkuat rasa nasionalisme dan mencegah dampak negatif globalisasi?",
     options: [
-      "Teman-teman Nia yang tertawa ketika Nia menari tarian daerahnya",
-      "Fardi tidak keberatan unutk berkumpul bersama temannya yang berbeda agama",
-      "Mika tidak memilih-milih dalam berteman meskipun berbeda suku",
-      "Dreaken selalu memberikan yang terbaik walaupun atasannya berbeda keyakinan",
+      "Mewujudkan supremasi hukum untuk menegakkan keadilan",
+      "Menggalakkan penggunaan produk lokal yang berkualitas tinggi",
+      "Menanamkan dan mengamalkan nilai-nilai pancasila secara berkesinambungan",
+      "Menjadi selektif terhadap pengaruh asing dalam ideologi dan sosial budaya",
     ],
   },
   {
-    //3
+    //3 baru
     id: 38,
     question:
-      "Salah satu tantangan besar nasionalisme di era globalisasi adalah ... ",
-    options: [
-      "Meningkatkanya partisipasi warga dalam kegiatan politik",
-      "Meningkatnya kerjasama antara negara",
-      "Berkembangnya teknologi informasi dan komunikasi",
-      "Tergerusnya identitas nasional oleh budaya asing",
-    ],
-  },
-  {
-    //3
-    id: 39,
-    question:
-      "Kesadaran keanggotaan dalam susatu bangsa yang secara potensial atau aktual bersama-sama mencapai, mempertahankan, dan mengabdikan identitas, integritas, kemakmuran, dan kekuatan bangsanya merupakan pengertian dari ...",
+      "|Butet Manurung membrantas buta huruf dengan mendirikan SOKOLA RIMBA. Meskipun berat, Butet berhasil melululhkan hati suku anak dalam dan menggerakkan hati meraka untuk belajar membaca. Membaca adalah jendela dunia. Ketika masyarakat  bisa membaca mereka tidak akan ditipu oleh oknum yang menyodorkan proposal mengambil tanah mereka. Tindakan Butet Manurung apabila dilihat dari pengalaman nilai-nilai pancasila dapat digolaongkan dalam bentuk ... ",
     options: [
       "Bela Negara",
-      "Integritas Nasional",
-      "Patriotisme",
       "Nasionalisme",
+      "Mengglang persatuan dan kesatuan",
+      "Patriotisme",
     ],
   },
   {
-    //3
+    //2 baru
+    id: 39,
+    question:
+      "Berikut ini yang bukan merupakan latar belakan adanya Wawasan Nusantara dilihat dari falsafah Pancasila adalah ...",
+    options: [
+      "Kemerdekaan sebagai hasil perjuangan seluruh rakyat Indonesia",
+      "Mengutmakan kepentingan umum dari pada individu atau golongan",
+      "Penerapan hak asasi manusia secara mutlak tanpa batas",
+      "Memberi kesempatan setiap pemeluk agama untuk beribadah",
+    ],
+  },
+  {
+    //1 baru
     id: 40,
     question:
-      "Berikut ini merupakan pengamalan praktis dari Pancasila sila ke-4 dan HAM yang dapat dilakukan oleh setiap warga negara Indonesia dalam kehidupan bertetangga adalah ...",
+      "Mengapa penting bagi Presiden untuk memiliki menteri-menteri yang membantunya dalam menjalankan pemerintahan menurut Pasal 17 UUD 1945 hasil amandemen 2002?",
     options: [
-      "Mengutamakan kepentingan negara dan masyarakat",
-      "Mengutamakan suara mayoritas dalam mengambil keputusan",
-      "Tidak memaksakan kehendak pada orang lain",
-      "Rela bekerja keras dan bergotong royong",
+      "Karena Persiden tidak mampu menjalankan pemerintahan sendiri",
+      "Karena menteri-menteri dapat membantu Persiden mengambil keputusan yang tepat",
+      "Karena menteri-menteri dapat membantu Persiden menghindari krittik dari publik",
+      "Karena menteri-mentri dapat menggantikan Presiden jika terjadi hal yang tidak diinginkan",
     ],
   },
   {
-    //0
+    //2 baru
     id: 41,
     question:
-      "Presiden Soeharto memegang jabatan lebih dari 30 tahun melalui pemilihan presiden yang dilakukan oleh MPRl. Setelah amandemen UUD 1945, MPR tidak lagi melakukan pemilihan presiden sejak tahun 2004 dan pada tahun itu Indonesia pertama kali memiliki presiden berdasarkan pilihan rakyat. Perubahan kewenangan MPR disebabkan karena ...",
+      "Salah satu kewajiban warga negara berdsarkan sila Ketuhanan Yang Maha Esa, adalah ...",
     options: [
-      "Kedaulatan berada di tangan rakyat",
-      "Kedaulatan sepenuhnya dilakkukan melalui pilpres langsung",
-      "Kedaulatan berada di ditangan legisatif dan presiden/wapres yang dilakukan melalui mekanisme pemilihan langsung",
-      "Kedaulatan dilaksanakan oleh presiden sebagai Mandate MPR",
+      "Mengundang pemeluk agama lain dalam segala hajatan",
+      "Saling mencintai sesama",
+      "Tidak memaksakan suatu agama dan kepercayaan kepada orang lain",
+      "Tidak memakasaan kehendak",
     ],
   },
   {
-    //0
+    //2 baru
     id: 42,
     question:
-      "Indonesia sebagai sebuah negara kesatuan yang berbentuk republik memiliki landasan konstitusional yang kuat, yang dijelaskan dalam Pasal 1 Ayat (1) UUD 1945. Dalam konteks ini, Negara Indonesia yang merupakan bentuk kesatuan memiliki arti sebagai ... ",
+      "Dalam menghadapi konflik sosial di masyarakat, penerapan untuk menjaga persatuan. Bagaiman penerapan Pancasila dapat membantu dalam masyarakat yang beragam?",
     options: [
-      "Indonesia memiliki suatu pemerintahan pusat yang mengatur seluruh wilayahnya",
-      "Indonesia terdiri dari beberapa negara bagian yang saling berdiri sendiri",
-      "Indonesia memiliki beberapa pemerintahan pusat yang saling bekerja sama",
-      "Indonesia terdiri dari beberapa wilayah yang memiliki otonomi khusus",
+      "Mengutamakan hukum tanpa memperhatikan tanpa memperhatikan konteks budaya",
+      "Mengutamakan kepentingan daerah atas nasional",
+      "Memfasilitasi musyawarah untuk menceri solusi bersama",
+      "Mengutamakan tindakan represif dalam menyelsaikan masalah",
     ],
   },
   {
-    //3
+    //2 baru
     id: 43,
     question:
-      "Salah satu perlunya transparansi kinerja yaitu agar terhindar dari konflik kepentingan dan terhindar dari tindakan penyuapan. Hal ini perlu dilakukan untuk membentuk ... ",
-    options: [
-      "Sistem Antikorupsi",
-      "Pengelolahan Sumberdaya Manusia",
-      "Karakter Pengawas Instansi",
-      "Budaya Organisasi",
-    ],
+      "UUD 1945 telah mengalami beberapa kali perubahan untuk menyesuaikan dengan perkembangan zaman dan tututan reformasi. Beberapa kali amandemen UUD 1945 dilakukan sejak dimulainya era reformasi? ",
+    options: ["Dua kali", "Tiga kali", "Empat kali", "Lima kali"],
   },
   {
-    //0
+    //2 baru
     id: 44,
     question:
-      "Makna yang terkandung Pancasila sebagai philsophie grondslag adalah ",
+      'Sila ke lima Pancasila "Keadilan sosial bagi seluruh rakyat Indonesia" berperan sebagai pedoman bagi kesejahteraan. Dalam konteks ini, apa yang dimaksud dengan "keadilan sosial" bagi rakyat?',
     options: [
-      "Pancasila sebagai dasar filsafat negara",
-      "Pancasila sebagai alat pemersatu",
-      "Pancasila sebagai ideologi bangsa indonesia",
-      "Pancasila sebagai perjanjian luhur bangsa indonesia",
+      "Mengutamakan pemerataan kesejahteraan ekonomi yang merata bagi seluruh lapisan masyarakat Indonesia",
+      "Menghargai dan melindungi hak asasi setiap warga negara di dalam kehidupan bermasyarkat yang adil",
+      "Distribusi kekayaan dan sumber daya alam secara adil bagi kesejahteraan seluruh warga bangsa",
+      "Menjamin kebebasan seluruh rakyat untuk menentukan jalan hidup dan pekerjaaan yang mereka inginkan",
     ],
   },
   {
-    //1
+    //0 baru
     id: 45,
     question:
-      "Seorang karyawan yang bekerja di sebauh perusahaan selalu menyelesaikan pekerjaanya tepat waktu dan dengan kualitas yang sangat baik. Namun, suatu saat dia mengalami masalah pribadi yang membuatnya tidak bisa fokus pada pekerjaannya. Apa yang seharusnya dilakukan karyawan tersebut untuk mempertahankan komitmen dan integritasnya di tempat kerja?",
+      "Amandemen UUD 1945 perlu dilakukan karena beberapa pasal dalam UUD 1945 masih... ",
     options: [
-      "Menyelesaikan pekerjaannya setelah masalah pribadinya selesai, tanpa memberi tahu rekan kerjanya tentang masalah tersebut",
-      "Meminta cuti atau izin untuk menyelesaikan masalah pribadinya agar bisa fokus pada pekerjaanya di kemudian hari",
-      "Menyelesaikan pekerjaan dengan kualitas yang kurang baik karena dia tidak bisa fokus pada pekerjaannya",
-      "Menyelesaikan pekerjaannya dengan bantuan rekan kerjanya agar bisa memenuhi standar kualitas yang diharapkan",
+      "Dapat ditafsirkan beberapa makna dalam penafsirannya",
+      "Dapat ditafsirkan menjadi satu pengertian yang kabur",
+      "Diragukan akan kemampuan UUD dalam menampung aspirasi",
+      "Ada pasal yang kurang",
     ],
   },
   {
-    //2
+    //1 baru
     id: 46,
     question:
-      "Mahkamah Agung berwenang mengadili pada tingkat kasasi, menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang, dan mempunyai wewenang lainnya yang diberikan oleh undang-undang. Merupakan bunyi UUD 1945 pasal ...",
-    options: ["24 ayat 1", "24 ayat 2", "24A ayat 1", "24A ayat 2"],
+      "Rela berkorban demi bangsa dan negar merupakan salah saut bentuk bela negara yang paling tinggi. Rela berkorban berati memberikan segala yang dimiliki untuk kepentingan bangsa dan negara, bahkan nyawa sekalipun, Berikut ini adalah contoh bentuk rela berkorban demi bangsa dan negara, kecuali ...",
+    options: [
+      "Seorang prajurit TNI yang gugur dalam pertempuran melawan Teroris",
+      "Seorang pelajar yang rela membatalkan liburanya untuk mengikuti kegiatan pramuka",
+      "Seorang pengusaha yang rela menyumbangkan sebagaian kekayaan untuk pembanguna di daerah tertinggal",
+      "Seorang mahasiswa yang rela mengorbankan waktunya untuk menjadii relawan bencana alam",
+    ],
   },
   {
-    //0
+    //2 baru
     id: 47,
     question:
-      "Dalam suatu organisasi, terdapat seorang karyawan yang menemukan adanya kecurangan dalam pengelolaan keuangan. Apa yang seharusnya dilakukan oleh karyawan tersebut? ",
+      "indonesia menganut sistem kedaulatan rakyat tapi juga mengakui kedaulatan lain, salah satunya adalah kedaulatan Negara. Pengakuan Kedaulatan Negara terdapat pada",
     options: [
-      "Melaporakan kecurangan tersebut kepada atasan langsunya",
-      "Menutup mata dan tidak melaporkan kecurangan tersebut",
-      "Mencoba mengatasi sendiri tanpa melaporkan kepada siapa pun",
-      "Meminta saran dari teman sejawat sebelum melaporkan kecurangan tersebut",
+      "Pancasila sila ketiga",
+      "Pancasila sila keempat",
+      "UUD 1945 pasal 1 ayat 3",
+      "Pembukaan UUD 1945 alinea 4",
     ],
   },
   {
-    //2
+    //0 baru
     id: 48,
     question:
-      "Apabila Dewan Perwakilan Rakyat tidak menyetujui rancangan anggaran pendapatan dan belanja negara yang diusulkan oleh Presiden, Pemerintah menjalankan Anggaran Pendapatan dan Belanja Negara tahun yang lalu. Merupakan bunyi UUD 1945 pasal ...",
-    options: ["23 ayat 1", "23 ayat 2", "23 ayat 3", "23 ayat 4"],
+      "Persident dan wakil persiden memegang jabatan selama 5 tahun dan sesudahnya dapat dipilih kembali dalam jabatan yang sama hanya untuk satu kali masa jabat. Pasal yang mengatur hal ini telah mengalami amandemen pada tanggal...",
+    options: [
+      "21 Oktober 1999",
+      "18 Agustus 2000",
+      "9 November 2001",
+      "11 Agustus 2002",
+    ],
   },
   {
-    //3
+    //1 baru
     id: 49,
     question:
-      "Seorang menager di sebuah perusahaan memiliki reputasi yang baik derena selalu memenuhi janji-janjinya. Namun, suatu saat dia berjanji memberikan kenaikan gaji salah satu karyawanya yang telah bekerja keras, tetapi kemudian dia memutuskan untuk tidak memberikan kenaikan gaji tersebut. Apa yang seharusnya dilakukan oleh menajer tersebut untuk mempertahankan konsistensi dan integritasnya? ",
+      "Pemberian nama pancasila pada lima dasar negara oleh Ir. Soekarno berdasarkan masukan dari,",
     options: [
-      "Memberikan kenaikan gaji pada karyawan tersebut agar tidak kehilangan reputasi baik yang telah dibangunnya",
-      "Menjelaskan kepada karyawan tersebut bahwa kebijakan perusahaan berubah dan kenaikan gaji tidak lagi bisa diberikan",
-      "Mengalihkan perhatian karyawan dengan memberikan bonus lain, seperti tunjangan kesehatan atau cuti tambahan",
-      "Meminta maaf kepada karyawan tersebut dan berjanji untuk memberikan kompensasi di masa depan jika ada kesempatan",
+      "Drs. Mohammad Hatta",
+      "M. Yamin",
+      "Radjiman Wedyonodiningrat",
+      "Ahmad Subarjo",
     ],
   },
   {
-    //0
+    //2 baru
     id: 50,
     question:
-      "Menurut Undang-Undang Dasar 1945 pasal 13 President memiliki hak sebagai berikut ... ",
+      "Bangsa Indonesia memiliki cita- cita bersama yang harus diwujudkan untuk mencapai kesejahteraan seluruh rakyat. Berbagai cara dilakukan agar cita-cita tersebut dapat tercapai. Kedudukan Pancasila dalam hal tersebut adalah ...",
     options: [
-      "Mengangkat duta dan konsul dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat (DPR)",
-      "Memberi grasi dan rehabilitasi dengan memperhatikan Mahkamah Agung",
-      "Memberi amnesti dan abolisi dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat (DPR)",
-      "Menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain",
+      "Falsafah bangsa",
+      "Dasar negara",
+      "Ideologi negara",
+      "Cita-cita bangsa",
     ],
   },
   {
-    //1
+    //1 baru
     id: 51,
     question:
-      "Cinta tanah air adalah bangga dan juga memiliki sebuah wilayah tertentu. Rasa cinta tanah air sangat penting untuk dimiliki sejak kecil, oleh karena itu banyak diadakan kegiatan dalam menunjang persatuan. Kegiatan yang dapat diselenggarakan untuk mempertemukan beberapa kebudayaan daerah yang ada di Indonesia melauli bentuk pentas dan seni adalah dengan ...",
+      "Pancasila memiliki kedudukan dan fungsi yang sangat penting bagi bangsa Indonesia. Dalam tatanan kehidupan bangsa dan negara Indonesa, Pancasila memenuhi syarat sebagai staats fundamental norm seperti yang dimuat dalam Pembukaan UUD 1945. Maksud dari Pancasila sebagai staats fundamental norm adalah ... ",
     options: [
-      "Mengadakan konser musik secar rutin untuk dapat dinikmati oleh masyarakat",
-      "Mengadakan kegiatan festifal kebudayaan yang melibatkan elemen masyarakat",
-      "Melakukan pameran fotografi dari berbagai daerah yang ada di Indonesia",
-      "Menggiatkan pameran edukasi di berbagai daerah untuk kemajuan daerah",
+      "Pancasila berfungsi untuk memberikan pandangan bagi bangsa lain",
+      "Pancasila menjadi sumber hukum tertinggi di Indonesia yang isi dan kedudukannya tidak dapat diubah",
+      "Pancasila sebagai peraturan untuk mengatur hidup orang banyak",
+      "Norma yang berlaku di Indonesia disesuaikan dengan norma-norma yang berlaku di seluruh dunia.",
     ],
   },
   {
-    //3
+    //1 baru
     id: 52,
     question:
-      "Menurut Undang-Undang Dasar 1945 pasal 24A ayat 3, calon Hakim Agung diusulkan ..... kepada ... ",
+      "Salah satu tujuan Negara Indonesia adalah mewujudkan suatu keadilan sosial bagi seluruh raykat Indonesia seperti yang tertulis dalam pembukaan UUD 1945. Maksud dari pernyataan tersebut adalah ...",
     options: [
-      "Mahkamah Konstitusi kepada Dewan Perwakilan Rakyat",
-      "Kehakiman kepada Dewan Perwakilan Rakyat",
-      "Dewan Perwakilan Rakyat kepada Majelis Permusyawaratan Rakyat",
-      "Komisi Yudisial kepada Dewan Perwakilan Rakyat",
+      "Negara Indonesia melindungi segenap bangsa dan tumpah darah Indonesia",
+      "Negara berkewajiban mewujudkan kesejateraan umum bagi seluruh warga negara",
+      "Negara Indonesia adalah negara demokrasi yang menjunjung tinggi hak-hal warga negaranya",
+      "Negara Indonesia menjunjung tinggi nilai-nilai kemanusiaan yang berdasarkan Pancasila",
     ],
   },
   {
-    //2
+    //1 baru
     id: 53,
     question:
-      "Pancasila berfungsi sebagai dasar negara dan landasan dalam penyelnggaraan kehidupan berbangsa. Salah satu peran utamanya adalah memperkuat persatuan bangsa yang multikultural. Dalam konteks ini bagaimana Pancasila sebagai dasar negara mewujudkan persatuan dalam keberagaman? ",
+      "Pancasila yang tercantum dalam pembukaan UUD 1945 alinea keempat dilihat dari peroses teerjadinya perubahan...",
     options: [
-      "Membangun kesadaran tentang pengtingnya toleransi melalui nilai-nilai luhur kebangsaan",
-      "Memberikan pedoman bagi perilaku masyarakat untuk menghormati perbedaan",
-      "Menjadi acuan dalam pembentukan kebijakan yang mengatur kehidupan bernegara berdasarkan nilai keadilan dan persatuan",
-      "Menanamkan nilai moral dalam perilaku warga negara untuk menciptakan harmoni sosial",
+      "Perintis hidup bangsa Indonesia",
+      "Dasar filsafah negara Indonesia",
+      "Perjanjian luhur bangsa Indonesia",
+      "Pedoman hidup bangsa Indonesia",
     ],
   },
   {
-    //0
+    //3 baru
     id: 54,
     question:
-      "Dalam batang tubuh UUD 1945 yang mengatur tentang Warga Negara dan Penduduk adalah pada bab?",
-    options: ["10", "11", "12", "13"],
+      "Yayan melakukan korupsi di kantornya itu termasuk pelanggaran pancsaila sile ke?",
+    options: [
+      "Pancasila ke-1",
+      "Pancasila ke-2",
+      "Pancasila ke-3",
+      "Pancasila ke-5",
+    ],
   },
   {
     //3 baru
     id: 55,
     question:
-      "Indonesia merupakan negara kesatuan yang berdaulat. Indonesia memiliki wilayah dari Sabang sampai Merauke yang diproklamasikan pada tanggal 17 Agustus 1945. Sebagai negara besar dengan berbagai macam perbedaan di dalam masyarakat, seperti suku, ras nasional. Pancasila adalah ideologi dan salah satu sarana pemersatu bangsa dan negara dengan alasan ...",
+      "Dalam konteks hak asasi manusia, UUD 1945 mengatur hak warga negara atas perlindungan hukum dan keadilan. Hak ini tercantum dalam pasal berapa pada UUD 1045? ",
+    options: ["Pasal 25", "Pasal 26A", "Pasal 27", "Pasal 28D"],
+  },
+  {
+    //1 baru
+    id: 56,
+    question:
+      "Agung memberikan bantuan makanan kepada orang miskin dan kaum duava, maka Agung telah melakukan pengamalan pancasila sila ke? ",
     options: [
-      "Mampu menyesuaikan diri dengan masa kemerdekaan dan era pembangunan",
-      "Digali oleh Bung Karno dari sejarah perkembangan kehidupan masyarakat",
-      "Disepakati setelah terjadi perdebatan dalam sidang PPKI tahun 1945",
-      "Sebagai kesepakan atau perjanjian luhur bangsa yang menaungi kebinaekaaan",
+      "Pancasila ke-1",
+      "Pancasila ke-2",
+      "Pancasila ke-3",
+      "Pancasila ke-5",
     ],
   },
   {
-    //0
-    id: 56,
+    //0 baru
+    id: 57,
     question:
-      "Penyimpangan pertama terhadap Undang-Undang Dasar 1945 adalah...",
+      "Nilai-nilai dalam Pancasila merupakan filsafat bangsa bangsa Indonesia adalah ...",
     options: [
-      "Sistem presidensial berubah menjadi parlementer",
-      "Sistem parlementer berubah menjadi presidensial",
-      "Munculnya Tritura",
-      "Lembaga-lembga negara seperti MPR, DPR, DPA dan BPK belum dibentuk berdasar UUD 1945 dan masih bersifat sementara",
+      "Menjadikan jati diri bangsa sumber nilai dan norma yang beralaku di masyarakat",
+      "Pandangan hidup disertai dengan cara-cara yang digunakan untuk tujuan yang diidam-idamkan",
+      "Dasar untuk menyelenggarakan negara",
+      "Merupakan bagian perjalanan negara Indonesia",
     ],
   },
   {
     //2 baru
-    id: 57,
-    question:
-      "Bela negara tidak hanya dilakukan dengan mengangkat senjata tapi juga bisa dilakukan dengan hal lainya. Upaya negara dalam melindungi warga negara dengan cara pencegahan peredaran makanan kadaluarsa merupakan tugas dan tanggung jawab negara dalam hal ... ",
-    options: [
-      "Mensejehterakan seluruh rakyat Indonesia",
-      "Memenuhi kebutuhan hidup sehari-hari",
-      "Menjaga agar bahan pokok tetap stabil",
-      "Membela dan melindungi warga negara",
-    ],
-  },
-  {
-    //2
     id: 58,
     question:
-      "Fenomena konten mengemis di siaran langsung atau live TikTok belakangan tengah heboh dilakukan oleh para ibu-ibu, dari paruh baya hingga lanjut usia. Konten mengemisa tersebut dilakukan tentu untuk meraup cuan. Konten live TikTok itu memperlihatkan wanita dari usia paruh baya hingga nenek-nenek yang mandi lumpur sembari mengharapkan gift dari penonton, diangap sebagai bentuk mengemis gaya baru. Untuk diketahui, live TikTok merupakan fitur TikTok yang memungkinkan pengguna dapat menerima gift atau hadiah virtual dari penontonnya. Gift itulah yang nantinya dapat ditukar menjadi uang. Fenomena yang terjadi seperti hal tersebut menunjukan kurangnya sikap ...",
+      "Pendidikan bela negara bagi ASN menjadi hal yang penting, selain untuk membina pertahanan negara juga berguna untuk ...",
     options: [
-      "Kurang tanggung jawab dalam diri pribadi seseorang sehingga tidak menggunakan logika",
-      "Rendahnya rasa sikap kerja keras yang dimiliki sehingga menumbuhkan sikap pemalas",
-      "Kurangnya integritas diri dalam diri seseorang sehingga melakukan hal-hal yang bersifat menguntaungkan untuk diri sendiri tanpa memikirkan akibatnya ",
-      "Rasa tidak puas terhadap kemampuan yang dimiliki sehingga melakukan hal-hal yang tidak baik",
+      "Meningkatkan sikap untuk setia kepada NKRI",
+      "Meningkatkan kualitas ASN sebagai abdi negara dan pelayanan masyarakat",
+      "Meningkatkan dan menanamkan sikap rela berkorban dan cinta tanah air",
+      "Meningkatkan semangat pengabdian bagi bangsa dan negara",
     ],
   },
   {
-    //0
+    // 3 baru
     id: 59,
     question:
-      "Bangsa Indonesia baru saja melewati pemilihan umum 2019 untuk memilik persiden dan legislatif. Dasar hukum penyelnggaraan terdapat dalam pokok pikiran ketiga pembukaan UUD 1945 Pasal 22E ayat 1 yang berbunyi bahwa pemilu dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil. Maksud dari pelaksanaan pemilu yang bebas adalah pemilih ... ",
+      "Seorang abdi negara harus memiliki jiwa integritas yang tinggi mereka akan melayani negara dan masyarakat nantinya. Bentuk integritas tersebut dicerminkan dari sumpah mereka sebagai abdi negara dan merupakan bentuk pendekatan religius bagi mereka. Bentuk pendekatan religius bagi seorang abdi negara sesuai dengan pancasila yang pasti dilakukan adalah ...",
     options: [
-      "Bebas menentukan pilihanya tanpa paksaan dari pihak manapun",
-      "Harus menjaga kerahasiann yang dipilihnya",
-      "Bebas mau memilih atau tidak",
-      "Bebas menentukan peran dalam pemilu baik sebagai pemilih maupun kontestan dalam pesta demokrasi tersebut",
+      "Ikut serta dalam kegiatan keagamaan sesuai dengan ajaran yang di anutnya",
+      "Meyakini pancasila sebagai pedoman hidup berbangsa dan bernegara",
+      "Melaksanakan kegiatan keagamaan ketika luang seperti saat istirahat kerja",
+      "Sumpah jabatan sesuai dengan agama dan keyakinan masing-masing",
     ],
   },
   {
-    //2
+    // 3 baru
     id: 60,
     question:
-      "Bela negara dapat dilakukan dengan berbagai cara yang sesuai dengan Ideologi Pancasila dan UUD 1945. Berikut merupakan upaya bela negara yang dapat kita lakukan, kecuali ...",
+      "Pemberdayaaan kekayaan wilayah nusantara baik potansi maupun efektif untuk pemenuhan keperluan hidup sehari-hari harus tersedia merata di seluruh wilayah tanah air dengan tingkat perkembangan ekonomi harus serasi dan seimbang di seluruh daerah, tanpa meninggalkan ciri khas yang dimiliki oleh daerah dalam pengembangan kehidupan ekonominya. Tindakan di bawah ini yang berhubungan dengan bidang ekonomi khususnya dalam bidang SDM",
     options: [
-      "Berjuang dengan mengangkat senjata ketika ada negara asing yang mengganggu kedaulatan negara",
-      "Menciptakan susasana rukun, damai dan harmonis dalam lingkungan keluarga",
-      "Memiliki komitmen yang teguh dan bertanggung jawab pada amanah yang diberikan",
-      "Menjaga keamanan tempat tinggal dengan ikut kegiatan ronda malam",
+      "Mentransformasi skema subsidi secara bertahap menjadi bantuan tepat sasaran",
+      "Menyatukan semua subsidi dalam bentuk bantuan sosial",
+      "Mendistribusi lahan sebaagai modal masyarakat menengah ke bawah",
+      "Mereformasi Pendidikan dan pelatihan tenaga kerja menjadi Pendidikan dan pelatihan vokasis berbasis pekerjaan",
     ],
   },
   {
-    //2
+    //0 baru
     id: 61,
     question:
-      "Radikalisme merupakan salah satu ancaman serius terhadap nilai-nilai luhur pancasila. Ancaman radikalisme ini bisa diminimalisir salah satunya dalam bidang Pendidikan yaitu dengan cara ... ",
+      "Kepala Kepolisian Negara Republik Indonesia (Kaporli) Jendral Listyo Sigit Prabowo mengatakan bahwa kasus pembunuhan berencana Brigadir J atau Nofriansyah Yosua Hutabarat yang didalangi eks Kadiv Prompam Polri Fredy Sambo menjadi pukulan berat bagi institusi Bayangkara. Sebelum kejadian kasus pembunuhan berencana itu, menurutnya Polri memiliki kepercayaan yang tertinggi. Namun, kasus yang dilakukan Fredy Sambo membuat tingkat kepercayaan publik menurun drastis mencapai titik sangat rendah. Sikap yang dihaurskan oleh institusi kepolisian negara republik indonesia supaya kepercayaan masyarakat kembali seperti semula adalah ...",
     options: [
-      "Penambahan jam pelajaran pendidikan pancasila",
-      "Pendidikan pancasila dijadikan tanggung jawab guru dan siswa",
-      "Pendidikan pancasila sebagai saran untuk membentuk wawasan bangsa dan karakter",
-      "Pendidikan pancasila dijadikan dasar dan sumber pembelajaran",
+      "Bersikap profesional dalam menangani semua kasus hukum yang terjadi serta memberikan pelayanan yang prima kepada masyarakat",
+      "Menunjukan kinerja kerja dengan baik meskipun menyelesaikan masalah dengan seadanya",
+      "Memberikan bantuan hukum kepada siapapun yang membutuhkan perlindungan",
+      "Membuktikan kinerja kepada masyarakat dan memberitakanya lewat media sosial",
     ],
   },
   {
-    //3
+    //3 baru
     id: 62,
     question:
-      "Nasionalisme dalam beberapa dapat menjadi alat untuk mempersatukan orang-orang dari berbagai latar belakang budaya, agama, dan etnis dalam suatu negara. Hal ini terjadi ketika seseorang merasa bangga dengan negaranya, mereka cenderung berusaha untuk mempertahankan integritas dan keamanan negara tersebut. Namun, nasionalisme juga dapat memperburuk konflik dan perbedaan diantara orang-orang. Di bawah ini yang tidak termasuk bentuk yang memperburuk nasionalisme adalah ...",
+      "Dalam sebuah negara terdapat berbagai aspek kehidupan baik itu ekonomi, sosial, politik, hukum, budaya dan lain-lain. Didalam setiap aspek tersebut, setiap warga negaa berhak dan wajib melakukan tindakan bela negara. Salah satu bentuk tindakan belanegara dalam aspek politik adalah ... ",
     options: [
-      "Ketakutan atau kebencian terhadap orang asing atau orang yang berbeda latar belakang budaya dan etnisnya",
-      "Nasionalisme yang berlebihan dapat digunakan sebagai alat untuk membenarkan diskriminasi terhadap kelompok minoritas",
-      "Nasionalisme yang berlebihan dapat mendorong pemikiran bahwa negara atau kelompok tertentu lebih superior dibandingkan kelompok lainnya",
-      "Nasionalisme yang bersifat inklusif cenderung menghindarkan dari peluang untuk perpecahan",
+      "Melakukan latihan dasar kemiliteran untuk mendukung kegiatan politiknya",
+      "Tidak menyebarkan hoax yang dapat memicu pecah belah",
+      "Melakukan kampanye Politik terhadap masyarakat untuk mendukung kegiatan politiknya",
+      "Mengajak masyarakat untuk memilih partai politik yang bersih dari segala bentuk KKN",
     ],
   },
   {
-    //3
+    //1 baru
     id: 63,
     question:
-      "Pasal 28 UUD 1945 ayat(2) yang berbunyi Negara menjamin kemerdekaaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan beribadah  menurut agama dan kepercayaanya itu. Oleh karena itu, kebebasan beragama diartikan sebagai ...",
+      "Pertahanan negara diselenggarakan pada falsafah dan pandangan hidup bangsa Indonesia, hal tersebut bertujuan untuk menjadi keutuhan dan tetap tegaknya NKRI yang berdasarkan Pancasila dan UUD 1945. Pandangan hidup bangsa Indonesia yang sudah ditentukan dalam Pembukaan dan Batang Tubuh UUD 1945 adalah sebagai berikut, kecuali ... ",
     options: [
-      "Kebeasan untuk menentukan dan memilih agama yang dianut serta berpindah-pindah",
-      "Kebebasan dalam menjalankan ibadah kapan saja dan di mana saja",
-      "Kebebasan memeluk atau tidak memeluk salah satu agama resmi",
-      "Kebebasan yang bersumber pada martabat manusia sebagai mahluk ciptaan Tuhan",
+      "Kemerdekaan adalah hak segala bangsa dan oleh sebab itu penjajahan di atas dunian harus dihapuskan karena tidak sesuai dengan perikemanusiaan dan perikeadilan",
+      "Perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada saat yang berbahagia dengan selamat sentosa mengantarkan rakyat Indonesia ke depan pintau gerbang kemerdekaan Indonesia yang merdeka, bersatu, berdaulat, adil dan makmur",
+      "Hak dan kewajiban setiap warga untuk ikut serta dalam usaha pembelaan negara",
+      "Bumi, air dan kekayaan alam yang terkandung didalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besarnya kemakmuran rakyat",
     ],
   },
   {
-    //1
+    //0 baru
     id: 64,
     question:
-      "Sekarang ini perkembangan ilmu pengetahan dan teknologi berkembang pesat sehingga dapat mempengaruhi mentalitas bangasa Indonesia. Dalam hal ini yang harus dilakukan warga Negara Indonesia untuk mengembalikan kualitas mora bangsa Indonesia adalah ... ",
+      'Bunyi Pancasila sila ke 1 yaitu "Ketuhanan yang Maha Esa "yang mempunyai inti yaitu bangsa Indonesia menyatakan kepercayaan terhadap Tuhan Yang Maha Esa, saling menghormati untuk mewujudkan kerukunan hidup diantara semua agama. Implementasi yang sesuai pada inti isi butir Pancasila ke 1 adalah ...',
     options: [
-      "Meningkatkan hukum dan aturan yang di Indonesia",
-      "Menumbuhkan kesadaran berbangsa dan bernegara berdasarkan Pancasila",
-      "Mencari informasi perkembangan yang ada di Indonesia",
-      "Memperkenalkan budaya yang ada di Indonesia",
+      "Rani merupakan anak yang taat beribadah, ia juga menghormati temannya yang berbeda agama serta tidak menggangu ibadah dan menjaga kerukunan",
+      "Rido merupakan anak yang tidak taat beribadah dan dia juga suka menggangu temannya saat beribadah",
+      "Tara setiap melihat temanya beribadah, dia selalu marah dan tidak suka saat temannya sedang beribadah",
+      "Roni suka mengejek-ejek temannya terutama yang berbeda agama dengannya",
     ],
   },
   {
-    //2
+    //2 baru
     id: 65,
     question:
-      "Nasionalisme tidak bisa kita artikan hanya sebatas rasa cinta kepada bangsa dan negara, tapi nasionalisme adalah kesadaran individu masyarakat suatu bangsa akan tanggung jawabnya dalam kemakmuran dan pertahanan yang dilandasi rasa cinta kepada tanah airnya. Senada dengan perkataan Bung Karno, bahwa nasionalisme ialah suatu itikad, keinsyafan rakyat, bahwa rakyat adalah satu golongan, satu bangsa. Rasa nasionalistis itu menimbulkan ketetapan hati dalam perjuangan menuju Indonesia merdeka. Artinya, nasionalisme itu dimulai dari adanya kesadaran, dari kesadaran itu tumbuhlah yang namanya cinta. Kesadaran akan tanggung jawab sebagai bagian dari masnyarakat diiringi cinta yang tumbuh kepada bangsa inilah yang membawa masyarakat kepada perjuangan yang tidak setengah-setengah. Perilaku yang dapat dilakukan para generasi muda yang memupuk jiwa nasionalisme yaitu ...",
+      "Pembukaan UUD 1945 tidak dapat diganti karena merupakan dasar-dasar filosofis dan dasar normatif yang mendasari seluruh pasal dalam UUD 1945. Pembukaan UUD 1945 mengandung staatsidee berdirinya Negara Kesatuan Indonesia, tujuan (haluan) negara serta dasar negara yang harus tetap dipertahankan. Teks pembukaan UUD 1945 terdiri atas empat alinea yang memiliki makna tersendiri. Salah satu makna yang terkandung dalam alinea kedua adalah ... ",
     options: [
-      "Aktif dalam mempromosikan budaya daerah masing-masing",
-      "Ikut serta dalam upacara adat kedaerahan",
-      "Aktif dalam mempromosikan kebudayaan Indonesia di sosial media",
-      "Mengikuti upacara bendera sebagai kewajiban agar tidak dihukum",
+      "Keteguhan bangsa Indonesia dalam membela kemerdekaan melawan penjajh dalam segala bentuk",
+      "Keinginan yang didambakan oleh segenap bangsa Indonesia terhadap suatu kehidupan yang berkesinambungan antara kehidupan meterial dan spiritual, dan kehidupan di dunia dan akhirat",
+      "Cita-cita besar bangsa Indonesia yaitu untuk menjadi bangsa yang merdeka, bersatu, berdaulat, adil dan makmur",
+      "Melindungi segenap bangsa Indonesia dan seluruh tupah darah Indonesia",
     ],
   },
   {
-    //1
+    //3 baru
     id: 66,
     question:
-      "Zayan adalah seorang pelayan publik. Suatu hari datang seorang ibu yang marah-marah kare pelayanan yang tidak sesuai. Sampai akhirnya ibu tersebut menyakiti perasaan Zayyan yang mana adalah rekan anda. Sikap anda ... ",
+      "Anda adalah seorang administrator di sebuah lembaga yang bertanggung jawab atas peningkatan keterampilan dan pengetahuan guru-guru baru. Anda menyadari bahwa persiapan yang baik dan pengetahuan yang relevan dapat memberikan dasar yang kuat bagi mereka dalam menjalankan tugas mereka sebagai pendidik. Dalam upaya mendukung pelatihan keterampilan dan pengetahuan guru-guru baru, pilihan tindakan yang tepat ...",
     options: [
-      "Diam saja karena bukan urusan anda",
-      "Menenangkan ibu tersebut kemudian mengarahkanya kebagian pelayanan yang lain",
-      "Menenangi ibu tersebut",
-      "Menenangi ibu tersebut sambil memberitahu bahwa apa yang dia ucapkan telah menyakiti rekannya",
+      "Mewajibkan guru-guru baru untuk mengikuti pelatihan sebagai syarat untuk tetap bekerja di lembaga tersebut",
+      "Melakukan evaluasi kinerja secara berkala untuk mengidentifikasi area di mana guru-guru baru membutuhkan pelatihan tambahan",
+      "Mengurangi durasi pelatihaan untuk mempercepat pelatihan proses penempatan guru-guru baru di sekolah-sekolah",
+      "Menyediakan program mentoring yang melibatkna guru-guru berpengalaman untuk mendampingi guru-guru baru dalam menghadapi tantangan di kelas",
     ],
   },
   {
-    //2
+    //1 baru
     id: 67,
     question:
-      "Saya perawat. Ketika sedang melayani seorang pasien, tiba-tiba datang seorang keluaarga pasien lain dengan nada marah bahkan sampai mencaci saya. Ia menjelaskan bahwa pelayanan perawat dalam memasang infus pada keluarganya kurang hati-hati sehingga menyebabkan pasien kesakitan. Padahal infus tersebut bukan saya yang pasang melainkan oleh rekan kerja yang lain. Sikap saya ...",
+      "Anda adalah seorang manajer proyek yang ingin meningkatkan profesionalisme tim Anda menjalankan proyek-proyek. Anda berencana mengunjungi sebuah perusahaan kontruksi yang dikenal dengan budaya profesional yang kuat. Pilihlah tindakan yang tepat untuk Anda lakukan selama kunjungan tersebut ...",
     options: [
-      "Dengan tenang mendengarkan keluhannya",
-      "Menasehati agar tidak boleh berkata kasar",
-      "Meminta maaf dan mendengarkan keluhanya",
-      "Berusaha tidak marah meskipun dicaci dan tetap melayani keluhanya",
+      "Mengamati bagaimana perusahaan kontruksi tersebut menjaga standart keselamatan yang tinggi dan memprioritaskan profesionalisme dalam setiap tahap proyek",
+      "Berdiskusi dengan manajer proyek perusahaan kontruksi tentang bagaimana meraka mengelola risiko dan komunikasi antar tim dalam proyek",
+      "Melibatkan tim Anda dalam diskusi setelah kunjungan untuk membahas hal-hal yang mereka pelajari dan bagaimana dapat mengimplementasikan dalam proyek yang sedang dikerjakan",
+      "Mengamati bagaimana perusahaan kontruksi tersebut menghadapi tantangan dan konflik dalam proyek dengan pendekatan yang profesional dan efektif",
     ],
   },
   {
-    //2
+    //3 baru
     id: 68,
     question:
-      "Seorang penlanggan ingin mengurus sesuatu dengan waktu yang cepat, teman anda kelelahan dan butuh istirihat. Sementara anda masih ada tugas yang belum selesai dan harus segera diselesaikan, sikap anda ...",
+      "Anda adalah seorang karyawan yang bekerja pada perusahaan yang berkaitan dengan pelayanan masyarakat dan Anda sadar bahwa setiap individu memiliki kemampuan yang yang berbeda dalam memahami regualsi dan kebijakan pelayanan yang perudahaan Anda tetapkan sehingga seringkali terjadi miskomunikasi ditambah lagi hal-hal teknis yang sering kali dikeluhkan masyarakat karean mengganggu proses pelayanan perusahaan Anda. Oleh karena itu untuk lebih meningkatkan maka ...",
     options: [
-      "Menggantikan teman anda, dengan mengurusi kepentingan pelanggan tersebut",
-      "Melanjutkan tugas teman yang kelelahan supaya kantor tidak terbengkalai",
-      "Melapor kepada atasan untuk meminta petunjuk",
-      "Menyelesaikan tugas anda sampai selesai baru membantu teman yang kelelahan",
+      "Perlu dibuatkan call center yang siap 24 jam untuk menerima semua pengaduan masyarakat",
+      "Email korespondensi dibutuhkan agar operator bisa melayani seluruh pertanyaaan yang masuk dari masyarakat seputar pelayanan",
+      "Menempatkan kotak saran di loket pelayanan untuk mengakomodir semua keluhan masyarakat",
+      "Mendirikan loket customer service sebagai tempat masyarakat memperoleh informasi secara langsung",
     ],
   },
   {
-    //2
+    //2 baru
     id: 69,
     question:
-      "Rini adalah seorang manajer di sebuah perusahaan teknologi yang sedang menghadapi tantangan dalam meningkatkan kolaborasi dan kerjasama antara tim. Untuk mengatasi masalah ini, Rini perlu memilih strategi dan alat yagn tepat untuk meningkatkan kolaborasi dalam jaringan kerja. Dalam konteks ini, tindakan yang sebaiknya dilakukan oleh Rini adalah ...",
+      "Pada saat Anda melayani pelanggan dalam antrian panjang, tiba-tiba seorang ibu tua menerobos antrian dan marah-marah tentang tidak adanya pemberitahuan perubahan jadwal sehingga membuat dirinya mengantri padahal informasi sudah diumumkan di sosial media. Bagaimana sikap Anda...",
     options: [
-      "Membentuk tim kerja lintas departemen yang terdiri dari anggota yang memiliki keahlian dan pengetahuan yang berbeda-beda, untuk mendorong kerjasama dan pertukanran ide yang lebih baik",
-      "Mengadakan pelatihan reguler tentang keterampilan kerjasama tim dan komunikasi efektig, sehingga tim dapat meningkatkan kemampuan kolaborasi mereka.",
-      "Mengimplementasikan platform online yang memungkinkan anggota tim berbagi file, berkomunikasi secara real time, dan berkolaborasi dalam proyek-proyek bersama",
-      "Menggunakan alat menejemen proyek yang terintegrasi dengan fitur seperti pemantauan kemajuan tugas, alokasi sumber daya, komunikasi yang efisien",
+      "Tidak menghiraukan",
+      "Meminta maaf dan menjelaskan tentang adanya perubahan jadwal",
+      "Menenangkannya kemudian menjelaskan adanya perubahan jadwal",
+      "Menjelaskan tentang perubahan jadwal yang sudah ada di media sosial",
     ],
   },
   {
-    //2
+    //3 baru
     id: 70,
     question:
-      "Dalam sebuah proyek kolaborasi di tempat kerja, tim terdiri dari anggota yang memiliki latar belakang agaman suku, dan budaya yang beragam. Selama proses kerja, terjadi perbedaan pendapat dan kecernderungan untuk mengutamakan perpestif fan kepentingan kelompok masing-masing. Apa sikap terbaik yang seharusnya diambil oleh tim dalam menghaddapi perbedaan agama, suku, dan budaya untuk mencapai hasil kerja yang harmonis? ",
+      "Anda meminta bantuan teman Anda untuk mengerjakan sebuah proyek, namun di tengah proses kelihatan teman Anda kurang bersemangat mengerjakannya, apa yang Anda lakukan? ",
     options: [
-      "Memilih ide dan pendapat yang mewakili mayoritas anggota tim tanpa mempertimbangkan pandanganyang berbeda",
-      "Mendiskrimainasi atau mengucilkan anggota tim yang memiliki perbedaan agama, suku, atau budaya",
-      "Membuka ruang dialog dan diskusi terbuka untuk memahami dan menghargai perbedaan agama, suku, dan budaya diantara anggota tim",
-      "Mengikuti kehendak dan dominasi anggota tim yang memiliki agama, suku, atau budaya meyoritas dalam pengambilan keputusan",
+      "Menanyakan hal yang membuatnya tidak bersemangat",
+      "Menyemangati teman untuk mengerjakanya",
+      "Mengorol dan mengingatkan teman akan target pengerjaan seharusnya",
+      "Mencari cara agar proyek tersebut dapat diselesaikan tepat waktu",
     ],
   },
   {
-    //2
+    //2 baru
     id: 71,
     question:
-      "Rina adalah seorang profesional muda yang ingin mencari mentor yang dapat membimbingnya dalam pengembangan karier. Dia ingin mencari informasi dan sumber daya yang dapat membantu dalam membangun dan membina jejaringan kerja yang akan membawanya mendapatankan nasihat berharga dan arahan dari orang-orang yang telah berpengalaman. Dalam situasi ini, langkah apa yang sebaiknya diambil oleh Rina?  ",
+      "Dalam upaya meningkatkan kualitas game online, Riza adalah seorang manajer layanan pelanggang yang ingin memahami kebutuhan dan keinginan pemain. Riza ingin mengetahui prefensi pemain terkait mede permainan yang diinginkan. Dalam situasi ini, tindakan mana yang paling tepat untuk Riza lakukan?",
     options: [
-      "Mengikuti acara konferensi atau acara bisnis yang melibatkan pemimpin dan profesional berpengalaman di bidangnya",
-      "Menghubungi dan meminta bantuan dari kolega yang telah memilikai mentor dan meminta rekomendasi atau pengenalan",
-      "Menghubngi lembaga pendidikan, organisasi profesional, atau komunitaas industri yang mediakan program mentoring",
-      "Mengikuti grup diskusi atau forum online yang membahas topik seputar pengembangan karier dan mencari mentor melalui jaringan tersebut",
+      "Mengendalikan data statistik dari game untuk menentukan mode permainan yang paling populer",
+      "Mengirimkan email kepada para pemain dengan pertanyaan terkait mode permainan yang mereka sukai",
+      "Mengatur pertemuan dengan kelompok pemain terpilih untuk mendiskusikan preferensi terkait mode permainan",
+      "Mengadakan voting di media sosial untuk memungkinkan pemain memilih mode permainan faforit mereka",
     ],
   },
   {
-    //2
+    //0 baru
     id: 72,
     question:
-      "Di lingkungan kerja yang multikultural, konflik antara budaya dapat terjadi karena perbedaan norma, nilai, atau praktik dalam berbagai budaya yang beririntraksi. Konflik semacam ini dapat mengggangu kolaborasi dan produktifitas tim. Dalam situasi ini, sikap apa yang sebaiknya diambikl oleh individu dalam menghadapi konflik antarbudaya? ",
+      "Dian telah pindah ke perusahaan F setelah meninggalakan pekerjaannya di perusahaan G. Meskipun sudah tidak bekerja di perusahaan G lagi, Dian ingin menjaga hubungan baik dengan mantan rekan kerja dan tetap terhubung dengan mereka. Dalam situasi ini, tindakan mana yang paling tepat untuk Dian lakukan? ",
     options: [
-      "Menghindari konflik dengan mengabaikan perbedaan budaya dan berfokus pada tugas-tugas kerja",
-      "Menggunakn pendekatan yang menghargai keberagaman dan mencari pemahaman bersama untuk menyelsaikan konflik",
-      "Mencoba mengubah budaya atau nilai anggota tim lain agar sesuai dengan budaya yang lebih dominan",
-      "Mengabaikan perbedaan budaya dan meminta bantuan dari menajemen untuk menylesaikan konflik antarbudaya",
+      "Mengajak mantan rekan kerja di perusahaan G untuk bertemu secara teratur untuk menjaga hubungan sosial",
+      "Membatasi hubungan dengan mantan rekan kerja di perusahaan G hanya melalui pesan teks atau email",
+      "Menghubungi mantan rekan kerja di perusahaan G hanya saat ada kebutuhan atau pertukaran informasi yang penting",
+      "Menjalin hubungan di media sosial dengan mantan rekan kerja di perusahaan G untuk tetap up-to-date tentang kehidupan masing-masing",
     ],
   },
   {
-    //3
+    //1 baru
     id: 73,
     question:
-      "Sebuah perusahaan teknologi sedang mengembangkan aplikasi baru yang akan mengumpulkan data sensitif pelanggan. Mereak menyadari pentingnya menjaga keamanan data dan privasi pelanggan, namun juga ingin memastikan aplikasi tersebut berfungsi dengan baik dan memberikan pengalaman pengguna yang optimal. Dalam situasi ini, sikap apa yang sebaiknya diambil oleh perusahaaan teknologi?",
+      "Nina adalah seorang supervisor yang bertanggung jawab atas tim yang terdiri dari anggota yang memiliki latar belakang yang berbeda. Nina ingin meningkatkan kemampuan timnya dalam bekerja dengan berbagai macam orang dan memperkuat  kerja sama antar kelompok. Dalam situasi ini, tindakan mana yang paling tepat untuk Nina lakukan?",
     options: [
-      "Melakukan audit keamanan terkait aplikasi dan memastikan bahwa protokol keamanan yang tepat telah diterapkan untuk melindungi data pelanggang",
-      "Melibatkan tim ahli keamanan dalam setiap tahap pengembangan aplikasii untuk memastikan behwa aspek keamanan diintegrasikan dengan baik",
-      "Melakukan pengujian penetrasi untuk mengidentifikasi celah keamanan dalam aplikasi dan memperbaikinya sebelum peluncuran",
-      "Mengikuti standart dan regulasi keamanan data yang berlaku serta menjalin kemitraan dengan perusahaan keamanan data terpercaya untuk mendapatkan penilaian independen terhadap keamanan aplikasi mereka",
+      "Mengabaikan kebutuhan dan prespektif anggota tim yang memiliki latar belakang yang berbeda dan fokus pada tugas-tugas individu",
+      "Mengadakan sesi pelatihan atau workshop untuk membahas keanekaragaman budaya dan mengatasi hambatan dalam kerja sama tim",
+      "Memilih bekerja hanya dengan anggota tim yang memiliki latar belakang budaya yang serupa dengannya",
+      "Memisahkan anggota tim berdasarkan latar belakang mereka agar mereka lebih nyaman dan mudah bekerja",
     ],
   },
   {
-    //3
+    //1 baru
     id: 74,
     question:
-      "Anda akan ditugaskan oleh atasan Anda untuk menjadi panitia pameran yang akan memperkenalkan produk-produk perusahaan, termasuk menjual beberapa produk untuk melihat respon pembeli. Pameran tersebut akan diikuti oleh banyak perusahaan yang juga memperkenalkan produk mereka ada yang setipe dengan Anda dan ada juga yang berbeda, untuk menarik pengunjung apa yang Anda lakukan...",
+      "Di sebuah proyek IT, terdapat seorang programer bernama Maya, yang ingin menciptakan kolaborasi yang saling mendukung dan memberikan bantuan kepada mitra bisnis saat diperlukan, sikap apa yang sebaiknya diambil oleh Maya?",
     options: [
-      "Memperagakan produk yang berkualitas di etalase agar banyak yang tertarik",
-      "Membuat pengunjung nyaman dengan stand Anda dengan menyediakan fasilitas seperti kursi dan lainnya",
-      "Selalu bersikap ramah terhadap pengunjung yang lewat dan mempersilahkan untuk mampir",
-      "Membuat konsep stand pameran yang menarik",
+      "Menjaga batasan profesional dan tidak terlibat dalam masalah mitra bisnis",
+      "Mendorong komunikasi terbuka dan kolaborasi aktif antara tim proyek dan mitra bisnis",
+      "Menunggu permintaan langsung dari mitra bisnis sebelum memberikan bantuan",
+      "Fokus pada tugas programing sendiri tanpa melibatkan diri dalam masalah mitra bisnis",
     ],
   },
   {
-    //3
+    //1 baru
     id: 75,
     question:
-      "Di dalam perusahaan tempat kamu bekerja diadakan pelatihan tentang teknologi yang baru rilis. Kamu mengetahui bahwa teknologi itu tidak ada hubungannya dengan pekerjaan yang kamu emban sedangkan atasanmu memerintahkanmu untuk ikut maka tindakanmu ...",
+      "Di sebuah desa wisata, terdapt seorang pengusaha bernama Budi, yang diundang untuk menghadiri festival budaya yang diadakan oleh masyarakat lokal. Dalam menghadiri festifal budaya yang diadakan oleh masyarakat lokal, sikap apa yang sebaiknya diambil oleh Budi?",
     options: [
-      "Menerimanya dengan senang hati dan ambisius mengikutinya karena atasan akan memuji",
-      "Menerima dan mengikuti pelatihan namun tidak mendengarkan apa materi pelatihan",
-      "Menerima dan menunjukkan kepada atasan bahwa diri Anda patuh dan taat kepada atasan",
-      "Menerima dan mengikuti pelatihan karena berfikir mungkin dapat berguna untuk kedepannya",
+      "Datang ke festival hanya untuk mencari peluang bisnis tanpa memperhatikan nilai budaya dan tradisi yang ada",
+      "Membuka diri untuk belajar dan berinteraksi dengan masyarakat lokal, serta mendukung kegiatan festival yang mempromosikan kebudayaan mereka",
+      "Memilih untuk hanya melihat dari kejauhan tanpa benar-benar terlibat dalam aktifitas yang disajikan dalam festival",
+      "Menjauhkan diri dari festival dan tidak berpartisipasi dalam kegiatan apa pun yang ditawarkan",
     ],
   },
   {
-    //1
+    //2 baru
     id: 76,
     question:
-      "Karena terjadinya beberapa permasalahan di perusahaan anda yang mengakibatkan terjadinya penurunan finansial. Hal ini tentu saja berdampak bagi kelangsungan seluruh komponen perusahaan termasuk karyawan, apa yang akan anda lakukan…",
+      "Anda adalah seorang pengusaha yang ingin mendakan forum atau diskusi untuk memperkenalakan teknologi informasi dan komunikasi baru kepada anggota komunitas bisnis. Anda menyadari bahwa beberapa anggota mungkin tidak memiliki pemahaman teknologi yang mendalam dan mungkin ragu untuk mengadopsi teknologi baru tersebut. Tindakan terbaik yang dapat Anda ambil adalah ...",
     options: [
-      "Tetap bekerja dengan baik seperti hari-hari sebelumnya",
-      "Membuat strategi baru untuk meningkatkan hasil kinerja",
-      "Mempelajari hal yang mungkin jadi penyebab penurunan tersebut",
-      "Sebagai karyawan saya akan mengikuti arahan dari atasan dan kebijakan perusahaan",
+      "Mengadakan sesi demonstrasi langsung tentang penggunaan teknologi baru agar anggota dapat melihat manfaatnya secara langsung",
+      "Menyediakan sumber daya online, seperti video tutorial dan artikel, yang menjelaskan langkah-langkah penggunaan teknologi tersebut",
+      "Menylenggarakan lokarya interatif yang melibatkan peserta untuk mencoba teknologi baru tersebut dengan bimbingan ahli",
+      "Mengajak pengguna teknologi yang sudah berpengalaman untuk berbagi pengalaman sukses mereka dalam mengadopsi teknologi baru",
     ],
   },
   {
-    //1
+    //0 baru
     id: 77,
     question:
-      "Darmayuda adalah seorang ASN.Tahun ini dia berkeinginan mengajukan diri sebagai caleg yang mewakili dapilnya …",
+      "Dalam suatu pertemuan kelompok saya datang terlambat ketka pembicaraan sedang berlangsung hangat. Padahal saya ingin menyumbang ide. Hal yang saya lakukan adalah ...",
     options: [
-      "Mengambil cuti di luar tanggungan negara sebagai ASN sampai terpilih menjadi anggota legislatif",
-      "Mengundurkan diri dari ASN dengan menerima risiko apabila tidak terpilih sebagai anggota legislatif",
-      "Tetap mengajukan diri sebagai caleg demi kebaikan yang lebih besar sesuai dengan pengamalan sila ke 4",
-      "Batal mengajukan diri sebagai caleg karena saya masih dalam masa ikatan dinas yang harus diselesaikan",
+      "Duduk mendengarkan pembicaraan sedang berlangsung hangat, baru kemudian bicara.",
+      "Menanyakan apakah saya boleh bicara segera.",
+      "Menunggu kesempatan bicara.",
+      "Meminta waktu untuk bicara.",
     ],
   },
   {
-    //3
+    //3 baru
     id: 78,
     question:
-      "Sedekah Laut merupakan bentuk perwujudan rasa syukur para nelayan setempat kepada Tuhan Yang Maha Pemurah.upacara ini dilakukan biasanya di daerah pesisir pantai Jawa, tetapi bagi beberapa kelompok masyarakat ritual ini dianggap sebagai kesesatan atau menyimpang dari ajaran agama. Tanggapan anda terhadap kearifan budaya lokal yang bertentangan dengan pemahaman terhadap agama tertentu adalah...",
+      "sudah diketehui secara umum bahwa proses belajar mengajar di perguruan tinggi dan sekolah menengah berbeda. Terhadap perbedaan tersebut saya akan...",
     options: [
-      "Menganggap bahwa budaya ini harus dihentikan karena bertentangan dengan nilai-nilai agama tertentu",
-      "Ikut serta meramaikan kegiatan ritual sedekah Laut karena hal ini adalah kearifan lokal.",
-      "memberitahukan ke masyarakat disana untuk tidak melakukan ritual tersebut karena bertentangan dengan keyakinan saya",
-      "Menganggap bahwa kearifan lokal budaya masyarakat setempat dan agama dapat diharmonisasikan dengan baik sehingga budaya lokal dapat dilestarikan.",
+      "Mengalami kesulitan untuk meninggalkan kebiasaan ini.",
+      "Membutuhkan waktu untuk mneyesuaikan diri.",
+      "Dapat mengubah kebiasaan saya selama ini.",
+      "Mudah menyesuaikan kegiatan dengan situasi baru.",
     ],
   },
   {
-    //2
+    //1 baru
     id: 79,
     question:
-      "Terhadap aliran keagamaan yang dituduh sesat oleh kelompok lain. Bagaimana seharusnya pemerintah Indonesia bersikap menurut anda…",
+      "Tina adalah seorang guru yang ingin tetap proaktif dalam mencari informasi teknologi informasi dan komunikasi terbaru. Dia ingin menggunakan teknologi terkini untuk meningkatkan pengalman belajar siswa-siswanya. Dalam situasi ini, tindakan mana yang paling tepat untuk Tania lakukan?",
     options: [
-      "Pemerintah sebaiknya membiarkan keberadaan aliran keagamaan yang dianggap sesat, namun tidak perlu memberikan fasilitas",
-      "Pemerintah dapat memberikan perlindungan dan pelayanan kepada aliran keagamaan yang dianggap sesat, selama belum ada aturan yang melarang",
-      "Pemerintah tidak boleh mendiskriminasi aliran keagamaan yang diklaim sesat, karena setiap warga negara memiliki hak yang sama untuk memperoleh perlindungan dan pelayanan",
-      "Pemerintah seharusnya mengusir dan melarang warga negaranya berada di Indonesia yang menganut aliran keagamaan yang diklaim sesat",
+      "Mengandalkan pelatihan dan workshop yang disediakan oleh sekolah untuk mendapatkan informasi teknologi informasi dan komunikasi terbaru",
+      "Mencari materi oline yang berkaitan dengan perkembangan terbaru dalam teknologi informasi dan komunikasi untuk diterapkan dalam pembelajaran",
+      "Bergabung dengan grup diskusi guru  yang membahas penggunan teknologi informasi dan komunikasi dalam  pembelajaran",
+      "Mengajarkan materi teknologi informasi dan komunikasi yang selama ini sudah di kuasai",
     ],
   },
   {
-    //0
+    //3 baru
     id: 80,
     question:
-      "Anda barusan mempunyai anak dan kemudian pindah rumah hal tersebut sangatlah merepotkan karena tidak ada yang membantu, Di lingkungan anda yang baru ada tradisi setiap tetanga baru harus membagikan makanan khas daerahnya. Apa yg akan anda lakukan…",
+      "Saat akan mengantarkan laporan pada atasan, saya menyadari laporan tersebut rusak terkena tunpahan minuman. Saya akan ...",
     options: [
-      "Membagikan makanan lain yang mudah untuk dipesan.",
-      "Tidak mengikuti tradisi itu",
-      "Memberi makanan hanya kepada tetangga dekat saja",
-      "Membagi-bagikan makanan khas daerahnya kepada seluruh anggota komplek tersebut",
+      "Panik karena laporan tersebut telah ditunggu.",
+      "Segera mencetak laporan baru.",
+      "Tetap memberikan laporan tersebut dan berpura-pura tidak tahu.",
+      "Meminta maaf dan menjelaskan pada atasan dan meminta waktu untuk menyiapkan laporan baru.",
     ],
   },
   {
-    //0
+    //0 baru
     id: 81,
     question:
-      "Atasan anda memanggil anda ke ruangannya, kemudian atasan anda menyampaikan pendapat yang sangat anda tidak setujui, apa yang anda lakukan…",
+      "Ayu, seorang mahasiswa baru di sebuah perguran tinggi, menemui tantangan ketika dia berinteraksi dengan seorang teman kelas yang sering memiliki pandangan yang berbeda tentang banyak hal. Setiap kali mereka berdiskusi di kelas, pandangan mereka saling bertentangan dan seringkali mengarah pada perdebatan yang intens. Meskipun situasinya sulit, Ayu menyadari bahwa penting untuk menjaga hubungan yang baik dengan teman sekelasnya dan menghargai perbedaan pendapat. Jika kamu menjadi Ayu, tindakan apa yang akan kamu lakukan ...",
     options: [
-      "Anda akan menyatakan pendapat anda dengan sejujurnya",
-      "Anda akan menyatakan pendapat anda secara tersirat",
-      "Anda jarang berani mengungkapkan opini yang bertentangan",
-      "Anda akan menyetujui walaupun bertentangan opini karena beliau adalah atasan yang harus anda hormati",
+      "Mencari waktu untuk berbicara secara pribadi dengan teman sekelas tersebut, dengan tujuan untuk saling memahami dan menghargai perspektif masing-masing",
+      "Menghindari topik-topik yang dapat memicu perdebatan saat berintraksi dengan teman sekelas tersebut",
+      "Mengambil inisiatif untuk bekerja sama dengan teman sekelas tersebut dalam tugas kelompok atau proyek kelas",
+      "Mengajak teman sekelas tersebut untuk menghadiri diskusi atau seminar yang membahas topik yang menjadi perbedaan pendapat mereka",
     ],
   },
   {
-    //1
+    //2 baru
     id: 82,
-    question:
-      "Beberapa minggu yang lalu atasan anda pernah memberitahu anda bahwa dia mempunyai jadwal untuk bisa menandatangani kontrak dengan beberapa orang klien baru dalam beberapa minggu ke depan untuk pengembangan perusahaan, namun tampaknya atasan anda lupa akan hal tersebut karena terlalu sibuk mengurusi banyak hal dan sering tidak berada dikantor karena pergi ke luar kota, sebagai seorang asisten yang akan anda lakukan adalah…",
+    question: "Bagi saya, kegagalan tahun lalu dalam tes CPNS adalah ... ",
     options: [
-      "Mengingatkan atasan bahwa bahwa punya rencana untuk bertemu klien",
-      "Membuat rencana pertemuan dan memberitahu atasan untuk disetujui",
-      "Membuat rencana pertemuan dengan klien atasan dan memberitahukannya",
-      "Memberitahu atasan bahwa dia harus bertemu klien untuk urusan bisnis",
+      "Isyarat bahwa saya tidak pantas jadi PNS.",
+      "Saya upayakan dengan segala cara, agar dapat berhasil pada tes berikutnya.",
+      "Justru meningkatkan semangat saya untuk lebih meningkatkan persiapan pada tes berikutnya",
+      "Membuat saya trauma dan malu.",
     ],
   },
   {
-    //1
+    //2 baru
     id: 83,
     question:
-      "Perusahaan tempat saya bekerja melaksanakan lomba dalam rangka HUT dan melibatkan seluruh kolega karyawan, sikap saya sebagai peserta lomba...",
+      "Di sebuah lembaga pendidikan, terdapat seorang guru bernama David, yang ingin menciptakan kelas yang inklusif dan menghargai perbedaan siswa. Dalam menciptakan lingkungan belajar yang menghargai perbedaan dan keberagaman, tindakan apa yang sebaiknya diambil oleh David?",
     options: [
-      "Tak cukup berpartisipasi saja, saya harus menjadi juara",
-      "Paling penting tingkatkan kebersamaan antara tim & kolega",
-      "Kompetisi menjadi juara itu utama, agar menjaga nama baik perusahaan",
-      "Apapun yang saya lakukan untuk menjaga nama baik perusahaan",
+      "Memisahkan siswa berdasarkan kemampuan akademik mereka untuk meningkatkan efesiensi pengajaran",
+      "Menghindari topik-topik  sensitif yang berpotensi memunculkan perbedaan pandangan di kelas",
+      "Mendorong diskusi terbuka dan saling menghormati antara siswa dengan latar belakang yang beragam",
+      "Menegakan aturan ketat untuk mengontrol perilaku siswa dan mencegah konflik",
     ],
   },
   {
-    //2
+    //0 baru
     id: 84,
     question:
-      "Dosen anda meminta anda untuk ikut dalam sebuah perlombaan yang dalam waktu dekat akan diselenggarakan oleh universitas tempat anda berkuliah. Dosen anda melihat bahwa anda memiliki talenta sesuai dengan diskripsi dari perlombaan, akan tetapi anda tidak menyadarinya, sikap anda…",
+      "Pada akhir bulan, tagihan rekening telepon kantor mengalami lonjakan menjadi sebesar. Setelah melakukan pengecekan ternyata banyak nomor telepon yang dihubungi tidak memiliki hubungan kerja dengan organisasi. Jajaran pimpinan memanggil semua pegawai tersebut. Sebenarnya saya termasuk pegawai yang menggunakan telepon untuk urusan pribadi. Respon saya adalah ...",
     options: [
-      "Berterimakasih kepada dosen tersebut karena telah memuji anda sebagai seseorang yang bertalenta",
-      "Menerima dan mengembangkan lebih dalam talenta yang anda miliki",
-      "Bersedia mengikuti perlombaan tersebut dan meminta bantuan dosen untuk membantu dan membimbing anda",
-      "Bersedia asalkan dosen anda selalu mau memberikan bimbingan",
+      "Berterus terang telah menggunakan fasilitas telepon untuk urusan pribadi.",
+      "Sebaiknya atasan bertanya kepada setiap pegawai untuk mengetahui siapa saja yang menggunakan fasilitas telepon di luar pekerjaan kantor.",
+      "Seharusnya organisasi tidak membesar-besarkan masalah ini sebab ada masalah penting lainnya yang harus diselesaikan.",
+      "Jika pimpinan mengetahui saya menggunakan telepon di luar pekerjaan kantor, maka saya akan mengundurkan diri.",
     ],
   },
   {
-    //2
+    //1 baru
     id: 85,
     question:
-      "Rekan kerja Anda dimarahi oleh atasan pada saat mengumpulkan tugas tim karena sudah telat beberapa jam mengumpulkan tugasnya. Hal ini disebabkan karena rekan Anda tersebut harus mengkompilasi pekerjaan tersebut terlebih dahulu sebelum dikumpulkan ditambah lagi semua rekan anggota tim mengumpulkan tugas pribadi mereka juga terlambat, sehingga rekan Anda yang bertugas untuk mengkompilasi setiap pekerjaan jadi tidak menyelesaikan pekerjaannya tepat waktu, sikap Anda ...",
+      "Andre adalah seorang pemilik usaha kecil dalam bidang manufaktru. Dia ingin memastikan usahanya selalu mengikuti perkembangan terbaru dalam teknologi informasi dan komunikasi untuk meningkatkan efisiensi produksi dan kepuasan pelanggan. Dalam konteks ini, sikap atau tindakan mana yang paling tepat dilakukan oleh Andre untuk memantau perkembangan teknologi informasi dan komunikasi terbaru dan mempertimbangkan penerapanya dalam organisasi?",
     options: [
-      "Mendengarkan rekan Anda dimarahi setelah itu memberikan semangat untuk tidak dimasukkan kehati ucapan atasan",
-      "Minta maaf kepada teman karena keterlambatan yang disebabkan oleh anggota tim yang lain",
-      "Mengakui kesalahan kepada atasan jika Anda juga turut berkontribusi pada masalah tersebut",
-      "Mengakui kesalahan kepada teman dan berjanji tidak akan mengulanginya lagi",
+      "Melakukan riset sendiri tentang teknologi baru dan mencoba menerapkannya secara mandiri tanpa konsultasi",
+      "Mengikuti pelatihan dan seminar terkait teknologi informasi dan komunikasi untuk mendapatkan wawasan tentang tren terbaru",
+      "Menolak penerapan teknologi baru karena menganggapnya mengganggu proses produksi yang sudah berjalan",
+      "Mengendalikan vendor atau pemasok untuk memperkenalakan teknologi baru tanpa melakukan evaluasi independen",
     ],
   },
   {
-    //2
+    //2 baru
     id: 86,
     question:
-      "Anda bekerja di perusahaan jasa yang bergerak di bidang transportasi. Siang ini pimpinan perusahaan akan mengadakan diskusi singkat dengan karyawan dan meminta usulan terkait peningkatan kualitas pelayanan terhadap pelanggan kedepannya agar banyak dari customer yang memakai jasa perusahaan anda, sikap anda...",
+      "Di sebuah lembaga keuangan, Sarah bekerja sebagai analis risiko. Dalam pekerjaannya, Sarah dituntut untuk menunjukkan sikap integritas dan tanggung jawab yang tinggi dalam mengelola risiko yang terkait dengan kegiatan perusahaan. Berikut adalah beberapa opsi tindakan yang dapat diambil oleh Sarah ...",
     options: [
-      "Memberikan usulan jika ingin meningkatkan pelayanan, perusahaan harus memenuhi semua hal yang diinginkan oleh pelanggan tanpa terkecuali",
-      "Mengusulkan adanya jalur khusus untuk ibu hamil dan menyusui dan para lansia",
-      "Memberikan usulan agar perusahaan menyediakan fasilitas khusus bagi ibu hamil, menyusui dan lansia",
-      "Mengusulkan agar alat transportasi yang digunakan selalu bersih dengan cara merekrut karyawan baru dengan gaji tinggi.",
+      "Sarah melaporkan temuan resiko yang signifikan kepada manejemen eksekutif perusahaan tanpa memperhatikan implikasi negatif yang mungkin terjadi",
+      "Sarah mengabaikan temuan resiko yang ditemukan dalam analisisnya untuk menghindari konfrontasi dengan manejemen perusahaan",
+      "Sarah secara aktif berpartisipasi dalam diskusi dengan tim manejemen untuk mengidentifikasi dan mengelola risiko secara efektif",
+      "Sarah menyembunyikan informasi tentang risiko yang berpotensi merugiakn perusahaan untuk menghindari tanggung jawab yang lebih besar",
     ],
   },
   {
-    //1
+    //1 baru
     id: 87,
     question:
-      "Anda ditugaskan menjadi ketua pelaksana sebuah acara yang menyangkut orang banyak. Para anggota panitia yang anda miliki bekerja sangat santai dan kurang bersemangat. Sikap anda…",
+      "Saya ditugaskan pimpinan untuk menjadi notulen dalam rapat Badan Pertimbangan Jabatan dan Kepangkatan. Respon saya...",
     options: [
-      "Meningkatkan ketertiban dan keteraturan dengan pengawasan yang ketat",
-      "Mengumpulkan anggota dan menanamkan pemahaman bahwa kesuksesan didapatkan dari kerja keras dan kesolidan anggota tim",
-      "Membuat rencana kerja dan mengharuskan anggota tim mematuhinya",
-      "Memberikan contoh sikap yang bertanggung jawab agar dapat dicontoh oleh anggota",
+      "Berusaha menghindari rekan yang membujuk untuk mengetahui hasil keputusan rapat.",
+      "Tidak akan membocorkan hasil keputusan rapat karena bukan wewenangan saya.",
+      "Bertindak seperti biasnya",
+      "Mendiskusikan hasil keputusan rapat dengan rekan kerja",
     ],
   },
   {
-    //2
+    //2 baru
     id: 88,
     question:
-      "Dampak korupsi tidak hanya sekedar menimbulkan kerusakan-kerusakan jangka panjang. Dari pilihan di bawah manakah yang seharusnya menjadi pola pikir seorang ASN…",
+      "Setiap hari, saya masuk kantor paling cepat dibandingkan peawai lainnya. Yang saya lakukan setelah tiba adalah ...",
     options: [
-      "Mempelajari delik dan modus korupsi secara detail akan menjauhkan dari tindak pidana korupsi",
-      "Mendapatkan contoh nyata delik dan modus tindak pidana korupsi akan memudahkan menjauhkan diri dari korupsi",
-      "Memastikan kesadaran anti korupsi sehingga muncul niat memberantas lalu kemudian mempelajari delik dan modusnya",
-      "Mempelajari dampak tindak pidana korupsi akan meningkatkan pengetahuan dan menjauhkan diri dari praktik korupsi",
+      "Masuk ke ruangan dan beristirahat sebentar melepah lelah perajalana kekantor",
+      "Masuk ke ruangan dan memulai pekerjaan yang tertunda kemarin",
+      "Masuk ke ruangan dan membuat rencana kerja.",
+      "Masuk ke ruangan dan merapaikan meja sambil menunggu pegawai lainnya",
     ],
   },
   {
-    //2
+    //2 baru
     id: 89,
     question:
-      "Yura bekerja di bagian marketing. Manajer menyarankan Yura untuk mempromosikan produk terbaru melalui aplikasi perluasan jejaring secara digital di kalangan anak muda. Akan tetapi, hingga kini ia belum pernah mencobanya. Hal yang harus dilakukan Yura adalah ...",
+      "Saya diminta untuk lembur kerja sedangkan saya sudah berjanji kepada anak saya untuk mengantarkannya ke pesta ulang tahun sahabatnya. Sikap saya ...",
     options: [
-      "Mendalami manfaat aplikasi tersebut agar efektivitas promosi meningkat dibandingkan sebelumnya",
-      "Mencoba satu per satu fitur aplikasi dimulai dari yang mudah pengoperasiannya terlebih dahulu",
-      "Memperdalam kegunaan aplikasi jejaring digital itu untuk mengembangkan relasi pada berbagai kesempatan",
-      "Mempelajari cara kerja aplikasi tersebut agar target promosi produk bisa segera tercapai",
+      "Menghubungi anak saya menjelaskan agar naik taksi saja",
+      "Bekerja lembur, karena lebih penting dari pada mengantar anak saya",
+      "Meminta izin pimpinan mengantar anak saya kemudian kembali ke kantor untuk bekerja lembur.",
+      "Menolak lembur dan pulang  mengantar anak saya ",
     ],
   },
   {
-    //3
+    //2 baru
     id: 90,
     question:
-      "Saya terkenal sebagai karyawan yang sering memberikan bantuan terhadap sesama rekan kerja dalam berbagai permasalahan di kantor tempat saya bekerja. Sikap saya ketika ada teman membutuhkan bantuan adalah…",
+      "Hari ini rekan kerja di kantor anda ayahnya sakit keras dan rekan anda tak punya biaya untuk membawanya ke rumah sakit. Sikap saya ...",
     options: [
-      "Saya akan membantu mereka, tetapi biasanya saya menyelesaikan pekerjaan saya terlebih dahulu",
-      "Saya bertanya dahulu mengenai permasalahan yang mereka hadapi jika memungkinkan saya akan membantu",
-      "Saya akan membantu terlebih dahulu saya akan berfikir cukup lama untuk mencarikan solusi yang tepat atas permasalahan mereka",
-      "Saya bertanya dahulu jika saya mampu saya akan membantu tentunya setelah mengerjakan pekerjaan saya",
+      "Saya akan menasehatinya untuk lain kali mencari fasilitas Jamkesmas",
+      "Saya memberinya bantuan semampu saya",
+      "Saya mengkoordinir rekan-rekan lain untuk turut membantu",
+      "Saya melaporkan kepada atasan tentang hal ini",
     ],
   },
   {
-    //2
+    //1 baru
     id: 91,
     question:
-      "Kadang saya bingung dengan perubahan perasaan yang terjadi di dalam diri saya… ",
+      "Di sebuah Universitas, terdapat seorang kordinator layanan mahasiswa bernama Maya, yang ingin membangun sistem pengaduan dan penanganan keluhan yang cepat dan tepat bagi mahasiswa. Dalam membangun sistem pengaduan dan penanganan keluhan yang cepat dan tepat, tindakan apa yang sebaiknya diambil oleh Maya?",
     options: [
-      "Dalam setiap kehidupan, seseorang sering mengalami perubahan emosi",
-      "Perubahan perasaan merupakan hal biasa",
-      "Setiap perubahan perasaan menuntut adanya pengelolaan",
-      "Emosi seseorang perlu dikelola",
+      "Meminimalisir waktu yang dialokasikan untuk menangani keluhan mahasiswa agar dapat fokus pada kegiatan akademik universitas",
+      "Membentuk tim khusus yang terdiri dari perwakilan mahasiswa dan staf untuk menangani pengaduan dan keluhan secarqa efektif",
+      "Menunda penanganan keluhan yang dianggap kurang signifikan untuk fokus pada pengembangan program akademik",
+      "Mengabaikan keluhan mahasiswa dan fokus pada pemenuhan target pendaftaran mahasiswa baru",
     ],
   },
   {
-    //2
+    //3 baru
     id: 92,
     question:
-      "Anda seorang karyawan yang memiliki dedikasi yang tinggi terhadap pekerjaan. Suatu hari anda dihadapkan dengan pekerjaan yang sangat banyak dan semuanya memiliki deadline yang sama. Sebagai karyawan yang profesional apa yang anda lakukan…",
+      "Di sebuah perpustakaan umum, terdapat seorang kepala perpustakaan bernama Rina, yang berusaha meningkatkan kualitas layanan dan koleksi buku. Namun, ia dihadapkan pada kendala kurangnya anggaran yang memadai. tindakan apa yang sebaiknya diambil oleh Rina?",
     options: [
-      "Menyelesaikan pekerjaan sesuai deadline dengan hasil sebisanya",
-      "Memilih lembur dengan harapan mendapat tambahan gaji berupa uang lembur",
-      "Melapor pada atasan bahwa anda butuh bantuan karyawan lain dalam menyelesaikan tugas yang banyak",
-      "Membawa tugas tersebut ke rumah dan mengerjakannya dirumah sampai larut malam",
+      "Mengurangi jumlah buku baru yang dibeli dan mengandalkan donasi masyarakat sebagai satu-satunya sumber koleksi buku",
+      "Mengadakan program sukarelawan untuk membantu mengelola perpustakaan dan mengurangi biaya tenaga kerja.",
+      "Menekan biaya sewa untuk buku-buku terpopuler sebagai sumber pendapatan tambahan",
+      "Menjaga standar layanan yang ada tanpa melakukan perubahan signifikan karena keterbatasan anggaran",
     ],
   },
   {
-    //2
+    //3 baru
     id: 93,
     question:
-      "Teman dekat anda melakukan pelanggaran berat di perusahaan yang anda pimpin berkaitan dengan keuangan, sikap anda adalah ... ",
+      "Di sebuah negara yang terkena dampak radikalisme, terdapat seorang tokoh bernama Maya, seorang wartawan yang berdedikasi tinggi. Maya menyadari media memainkan peran penting dalam membentuk persepsi masyarakat tentang gerakan radikal. Dia ingin memastikan bahwa peliputan media tentang radikalisme dilakukan dengan cermat dan bertanggung jawab. Dalam upaya meningkatkan kerjasama antara instansi dan masyarakat dalam memerangi radikalisme, tindakan apa yang sebaiknya diambil oleh Maya?",
     options: [
-      "Memecatnya karena telah melakukan pelanggaran berat",
-      "Mencari informasi tentang pelanggaran yang dilakukannya kemudian mengambil tindakan",
-      "Mencari informasi tentang pelanggaran yang dilakukan kemudian menentukan langkah selanjutnya",
-      "Mengumpulkan seluruh pimpinan divisi untuk menentukan sikap",
+      "Menulis artikel yang memberikan gambaran umum tentang semua kelompok radikal tanpa memberikan penekanan pada kelompok tertentu",
+      "Menerbitkan semua informasi rahasia yang dikumpulkan tentang kelompok radikal tanpa memberikan peringatan pada pihak berwenang",
+      "Melakukan wawancara dengan anggota kelompok radikal dan menyiarkan informasi mereka secara langsung tanpa menyaringnya",
+      "Melakukan penelitian mendalam dan menulis artikel yang memberikan konteks dan pemahaman yang lebih baik tentang akar penyebab radikalisme serta upaya pencegahannya",
     ],
   },
   {
-    //3
+    //1 baru
     id: 94,
     question:
-      "Siang ini anda sedang melayani banyak nasabah di kantor, antrian cukup panjang. Kemudian ada seorang kakek umur 70 tahun juga ikut mengantri. Karena terlalu lama dan antrian panjang, kakek tersebut meminta untuk dilayani terlebih dahulu, sikap anda…",
+      "Di sebuah desa yang terisolasi, terdapat seorang tokoh bernama Rina, seorang guru sekolah dasar yang priahatin dengan munculnya pemikiran radikal di kalangna muda. Rina ingin melakukan tindakan konkret untuk mencegah anak-anak terlibat dalam gerakan radikal. Dalam upaya meningkatkan kerjasama antar instansi dan masyarkat dalam memerangi radikalisme, tindakan apa yang sebaiknya diambil oleh Rina? ",
     options: [
-      "Minta maaf. Meminta untuk tetap antri karena pelayanan didasarkan kepada jadwal kedatangan",
-      "Langsung melayani kakek tersebut karena dia sudah tua",
-      "Melayani kakek tersebut kemudian memberikan pengertian kepada pelanggan yang lain",
-      "Memberikan pengertian kepada yang lain dan melayani kakek tersebut",
+      "Melarang seluruh kegiatan keagamaan di sekolah untuk menghindari adanya pengaruh radikal",
+      "Menciptakan program pendidikan yang mempromosikan pemahaman lintas agama dan toleransi kepada anak-anak",
+      "Menyembunyikan fakta tentang radikalisme dari siswa untuk mencegah kepanikan di antara mereka",
+      "Menerapkan tindakan keras terhadap siswa yang diduga terlibat dalam gerakan radikal tanpa adanya proses hukum yang jelas",
     ],
   },
   {
-    //1
+    //1 baru
     id: 95,
     question:
-      "Sebagai seorang calon ASN kita dituntut untuk cermat dalam bermedia sosial. Di era milenial sekarang ini marak berita dan informasi hoax di mdia sosial yang isebarkan oleh orang yang tidak brtanggung jawab, sikap anda mengatasi hal ini…",
+      "Di sebuah proyek multikultural, terdapat seorang menajer bernama Lisa, yang ingin menciptakan kolaborasi yang harmonis dan menghargai perbedaan. Dalam menciptakan kerjasama yang menghargai perbedaan dan keberagaman dalam tim, sikap apa yang sebaiknya diambil oleh Lisa?",
     options: [
-      "Membatasi penggunaan media sosial yang penting-penting saja",
-      "Mengenali sumber berita akurat atau tidaknya",
-      "Mengenali dari judul berita terkadang terkesan provokatif",
-      "Membaca keseluruhan informasi secara lengkap",
+      "Meminimalkan interaksi antar anggota tim yang memiliki latar belakang berbeda untuk menghindari konflik",
+      "Mendorong komunikasi terbuka dan saling pengertian antar anggota tim dengan latar belakang yang beragam",
+      "Memberlakukan kebijakan yang mengatur perilaku dan tata tertib yang seragam untuk semua anggota tim",
+      "Memilih anggota tim yang memiliki latar belakang dan kebiasaaan yang serupa agar terdapat keseragaman",
     ],
   },
   {
-    //2
+    //2 baru
     id: 96,
     question:
-      "Saya ditugaskan untuk memimpin tim dengan waktu kerja yang sangat terbatas. Saat saya mensosialisasikan mengenai hal ini ke anggota tim kerja yang terbentuk, mereka menunjukkan sikap tidak peduli dengan tugas yang diberikan. Sikap saya adalah ...",
+      "Dalam sebuah organisasi yang multikultural, Anda bertugas untuk memfasilitasi pelatihan tentang bagaiman membangun hubungan yang baik dengan warga negara dari berbagai latar belakang budaya. Apakah tindakan terbaik  yang harus Anda ambil dalam pelatihan ini? ",
     options: [
-      "Bekerja sendiri asalkan tugas selesai",
-      "Mudah sekali, tinggal melaporkan ke atasan saya agar orang tersebut diberi sanksi yang pantas",
-      "Membagi tugas dengan adil, mengarahkan, mendampingi, dan memotivasi. Jika ada kekeliruan diberi teguran",
-      "Menasehatinya agar anggota tim segera sadar akan penyelesaian tugas yang diberikan",
+      "Mengabaikan perbedaan budaya dan fokus pada keterampilan teknis saja",
+      "Menghindari topik-topik yang sensitif untuk menghindari konflik budaya",
+      "Menggunakan contoh dan studi kasus untuk memperlihatkan keragaman dan manfaatnya",
+      "Mempertegas perbedaan budaya untuk mendorong pemahaman yang lebih baik",
     ],
   },
   {
-    //2
+    //2 baru
     id: 97,
     question:
-      "Pada sebuah diskusi dengan tim kerja yang terdiri dari rekan-rekan kerja anda dikantor biasanya saya adalah ...",
+      "Sarah adalah seorang manjer di sebuah hotel bintang lima. Dia ingin meningkatkan kualitas pelayanan hotel dan memahami kebutuhan serta keinginan pelanggan. Salah satu masalah yang sering muncul adalah pelanggan mengeluhkan kebisingan di kamar mereka karena suara dari luar atau dari kamar sebelah. Dalam situasi ini, tindakan mana yang tepat untuk Sarah lakukan ? ",
     options: [
-      "Lebih banyak mendengar dan berbicara sekedarnya",
-      "Jika perlu bicara maka saya utarakan, jika tidak maka saya cukup mendengar",
-      "Mengamati sejenak lalu aktif berpendapat",
-      "Selalu aktif berpendapat dan mengarahkan teman-teman untuk berpendapat juga",
+      "Mengganti semua jendela hotel dengan yang kedap suara",
+      "Memberikan earphone atau alat bantu tidur kepada pelanggan untuk mengurangi gangguan suara",
+      "Mengadakan pertemuan dengan karyawan untuk mencari solusi berasama terkait masalah kebisingan ini",
+      "Mengirmbkan survei ke pelanggan untuk mengetahui tingkat kebisingan yang dapat mereka toleransi dan menyesuaikan kebijakan hotel",
     ],
   },
   {
-    //2
+    //3 baru
     id: 98,
     question:
-      "Apabila tiba-tiba saya ditempatkan di lingkungan kerja baru, maka saya akan ...",
+      "Anda adalah seorang pemimpin masyarakat yang ingin menjaga kerukunan dan kedamaian di lingkungan Anda. Tindakan terbaik yang dapat Anda ambil dalam mencapai tujuan tersebut adalah ...",
     options: [
-      "Perlu waktu untuk mengenal rekan-rekan kerja yang baru",
-      "Berkenalan dengan rekan kerja hanya jika suah membutuhkan bantuan mereka",
-      "Langsung mampu akrab dengan rekan kerja baru saya",
-      "Senang sekali jika ada rekan kerja yang ingin berkenalan dengan saya",
+      "Membentuk kelompok diskusi antara warga untuk membahas isu-isu sensitif dan mencari pemahaman bersama",
+      "Mengisolasi dan mengucilkan individu atau kelompok yang dianggap sebagai penyebab ketegangan di masyarakat",
+      "Membentuk kelompok pengawas masyarakat yang bertugas memantau dan mengendalikan aktivitas warga",
+      "Mempromosikan kegiatan sosial yang melibatkana semua warga tanpa memandang perbedaan latar belakang",
     ],
   },
   {
-    //1
+    //2 baru
     id: 99,
     question:
-      "Dalam kegiatan kantor yang sedang saya koordinir, ternyata ada rekan kerja saya yang saya tunjuk melakukan tugas yang saya berikan kepadanya sangat baik. Sikap saya adalah ... ",
+      "Di sebuah sekolah dasar, terdapat seorang kepala sekolah bernaman Bapak Adi, yang menghadapi tentang kurangnya anggaran yang memadai untuk meningkatkan kualitas pendidikan bagi siswa-siswanya. Bapak Adi ingin mencari solusi yang dapat membarikan dampak positif bagi para siswa-siswi tersebut. Dalam menghadapi masalah kurangnya anggaran untuk meningkatkan kualitas pendidikan, tindakan apa yang sebaiknya diambil oleh Bapak Adi?",
     options: [
-      "Puas, namun tidak perlu memuji karena hal itu akan membuatnya sombong",
-      "Memuji secara proporsional",
-      "Mengumumkan ke semua orang bahwa dialah yang terbaik yang pernah ada",
-      "Biasa saja dan berpura-pura tidak tahu akan keberhasilannya melakukan tugas",
+      "Mengurangi jumlah jam pelajaran dan kegiatan ekstrakulikuler demi menghemat anggaran",
+      "Membatasi akses siswa terhadap fasilitas sekolah, seperti perpustakaan dan laboratorium, untuk menghemat anggaran",
+      "Mengorganisir kerjasama dengan perusahaan dan lembaga lain untuk menyediakan sponsor dan donasi dalam bentuk bantuan pendidikan",
+      "Mangabaikan masalah kurangnya anggaran dan tetap menjalankan pendidikan seperti biasa",
     ],
   },
   {
-    //3
+    //3 baru
     id: 100,
     question:
-      "Saya bertugas di bagian pelayanan, ditempatkan di pengaduan lantai satu. Datang konsumen difabel, minta bantuan untuk dibantu proses administrasi. Tempat mengurus administrasi tersebut berada di lantai dua. Sikap saya adalah ...",
+      "Anda adalah seorang manajer proyek yang menghadapi tantangan kurangnya sumber daya, termasuk waktu, anggaran, dan peralatan kerja yang memadai. Dalam menghadapi situasi ini, sikap terbaik yang dapat Anda ambil adalah ...",
     options: [
-      "Mengarahkan konsumen ke satpam karena satpam lebih mudah dimintai bantuan",
-      "Mengarahkan konsumen ke loket seharusnya. Semua itu sudah sesuai dengan aturan yang berlaku",
-      "Memberi saran ke konsumen sebaiknya dia membawa rekan atau saudara yang bisa membantu keperluannya",
-      "Mencari rekan pengganti untuk loket yang saya jaga, kemudian mengantar konsumen menuju lantai dua",
+      "Menuntut tambahan sumber daya dari pihak atas untuk memenuhi kebutuhan proyek",
+      "Mengurangi cakupan proyek agar sesuai dengan sumber daya yang tersedia",
+      "Mendelegasikan tugas tambahan kepada anggota tim dengan harapan mereka dapat menylesaikan dengan sumber daya yang ada",
+      "Mengidentifikasi dan mengimplementasikan solusi kreatif untuk mengatasi keterbatasan sumber daya yang ada",
     ],
   },
   {
-    //1
+    //2 baru
     id: 101,
     question:
-      "Karena suatu permasalahan, kantor saya mengalami keterlambatan pembayaran gaji karyawan. Padahal anak saya sangat membutuhkan uang untuk membayar biaya sekolah. Yang saya lakukan ... ",
+      "Anda adalah seorang mahasiswa yang memiliki banyak tugas dan proyek kuliah yang perlu diselesaikan. Untuk membuat rencana kerja yang terorganisir dan efektif, sikap yang paling tepat adalah ... ",
     options: [
-      "Bekerja di luar kantor untuk mendapatkan uang itu",
-      "Meminta bantuan atasan",
-      "Mencari pinjaman kepada teman",
-      "Mendesak kantor untuk segera mengeluarkan gaji saya",
+      "Mengerjakan semua tugas sekaligus untuk memastikan semuanya selesai secepat mungkin",
+      "Mengabaikan tugas yang dianggap kurang penting untuk fokus pada yang lebih prioritas",
+      "Mengalokasikan waktu secara proposional untuk setiap tugas dan membuat daftar prioritas",
+      "Mendelegasikan tugas kepada teman atau anggota kelompok studi untuk mengurangi beban kerja",
     ],
   },
   {
-    //1
+    //2 baru
     id: 102,
     question:
-      "Ketika sedang melaksanakan presentasi, saya menrima kabar bahwa anak saya mengalami kecelekaan dan sekarang dirawat di rumah sakit. Saya akan ...",
+      "Anda adalah seoraang pengajar yang akan mengadakan workshop tentang teknologi informasi dan komunikasi untuk peserta yang memiliki latar belakang pendidikan yang beragam. Tujuan Anda adalah memperluas pengetqahuan peserta tentang perkembangan terbaru dalam bidang tersebut. Tindakan terbaik yang dapat Anda ambil dalam workshop ini adalah ... ",
     options: [
-      "Tetap melanjutkan presentasi",
-      "Mencari tahu kondisi anak saya dan kemudian memutuskan apakah tetap presentasi atau ke rumah sakit",
-      "Menghentikan presentasi dan langsung pergi ke rumah sakit",
-      "Menelfon istri menanyakan kondisi anak saya dan tetap melanjutkan presentasi",
+      "Memberikan presentasi yang terperinci tentang semua aspek teknologi informasi dan komunikasi tanpa mempertimbangkan tingkat pemahaman peserta.",
+      "Mengadakan sesi diskusi interaktif di mana peserta dapat berbagi pengalaman dan pengetahuan mereka tentang teknilogi informasi dan komunikasi",
+      "Memberikan peserta pilihan topik yang spesifik sesui dengan minat dan kebutuhan mereka",
+      "Mengurangi durasi workshop untuk memastikan peserta memahami topik secara keseluruhan, meskipun hanya secara umum",
     ],
   },
   {
-    //1
+    //1 baru
     id: 103,
     question:
-      "Istri teman saya baru saja melahirkan. Saya ingin mengunjunginya, tetapi sedang tidak punya uang untuk membeli kado. Saya akan ... ",
+      "Di sebuah perusahaan telekomunikasi, terdapat seorang manajer layanan pelanggang bernama Sarah, yang berusaha membangun sistem pengaduan dan penanganan keluhan yang cepat dan tepat. Dalam membangun sistem pengaduan dan penanganan keluhan yang cepat dan tepat, tindakan apa yang sebaiknya diambil oleh Sara?",
     options: [
-      "Mengunjunginya jika sudah punya uang untuk membeli kado",
-      "Tetap mengunjunginya tanpa membawa kado",
-      "Mengunjungi dan menyusulkan kadonya di lain waktu",
-      "Meminjam uang untuk membeli kado",
+      "Mengurangi jumlah personel yang bertanggung jawab atas penangan keluhan agar dapat menghemat biaya operasional perusahaan",
+      "Melakukan survei kepuasan pelanggang secara teratur dan menggunakan masukan tersebut untuk memperbaiki sistem pengaduan yang ada",
+      "Menunda penangan keluahan yang dianggap kurang penting untuk fokus pada peningkatan penjualan produk",
+      "Mengabaikan keluhan yang masuk dan fokus pada upaya meningkatkan keuntungan perusahaan",
     ],
   },
   {
-    //1
+    //0 baru
     id: 104,
-    question:
-      "Disebuah komonitas kecil, ada seorang tokoh yang sering kali menyampaikan pandangan yang intoleran terhadap kelopok minoritas. Banyak penduduk merasa khawatir bahwa pandangan ini bisa memicu ketegangan dan konflik di antara warga. Bupati setempat ingin mengambila langkah-langkah  yang tepat untuk mengatasi masalah ini dengan melakukan indentifikasi dini terhadap individu atau kelompok yang cenderung radikal. Apa tindakan yang sebaiknya diambil oleh bupati? ",
-    options: [
-      "Mengundang tokoh tersebut untuk berbicara didepan publik dan meminta klarifikasi pandanganya",
-      "Membentuk tim dialog yang terdiri berbagai pemangku kepentingan",
-      "Menjalin hubungan dengan organisasi masyarakat sipil yang bergerak di bidang penylesaian konflik",
-      "Mengadakan pertemuan dengan tokoh agama setempat untuk membahas nilai-nilai toleransi",
-    ],
+    question: "Bagi saya, bekerja adalah ...",
+    options: ["Beribadah", "Tugas", "Kewajiban", "Kebutuhan"],
   },
   {
-    //1
+    //3 baru
     id: 105,
     question:
-      "Atasan Anda melakukan rekayasa laporan keuangan kantor, maka anda ...",
+      "Organisai sedang mengalami permasalahn internal seputar manajeman keuangan [kerugian atau defesit yang cukup besar]. Pendapat saya terhadap kondisi ini adalah ...",
     options: [
-      "Dalam hati tidak menyetujui hal tersebut",
-      "Mengingatkan dan melaporkan kepada yang berwenang",
-      "Tidak ingin terlibat dengan proses rekayasa tersebut",
-      "Hal semacam itu sudah menjadi tradisi yang tidak baik di Indonesia",
+      "Saya akan menjaga kerahasian permasalah yang terjadi dan tidak ingin ikut campur masalah keungan",
+      "Seharusnya pemimpin puncak dapat menindak tegas yang terlibat dalam masalah ini",
+      "Tidak mempersoalkan masalah tersebut karena bukan bagian tugas saya",
+      "Perlu menjelaskan permasalahan kondisi keuangan perusahaan kepada seluruh jajaran organisasi agar dapat mengevaluasi kembali rencana pembelajaran",
     ],
   },
   {
-    //3
+    //3 baru
     id: 106,
     question:
-      "Hampir semua pegawai di kantor instansi saya meminta uang tanda terimakasih atas pengurusan surat ijin tertentu. Namun menurut peraturan kantor, hal itu tidaklah diperbolehkan, maka saya ...",
+      "Saya mendapt teguran dari pemimpin atas kesalahan yang bukan hanya saya seorang diri sebagai pelakunya. Reaksi saya ...",
     options: [
-      "Berusaha semampunya untuk tidak melakukanya",
-      "Melakukannya hanya jika terpaksa membutuhkan uang tambahan untuk keperluan keluarga, sebab gaji kantor memang kecil",
-      "Terkadang saja melakukan hal tersebut",
-      "Tidak ingin melakukannya sama sekali",
+      "Diam saja, kerena membantah hanya akan menambah rumit permasalahan",
+      "Menerima teguran tersebut dan mencoba menjadikannya sebagai pelajaran berharga, tetapi tetap mengadukan pegawai lain yang turut bersalah agar saya tidak menjadi korban seorang diri",
+      "Membantah dan mengadukan pegawai lain yang juga bersalah agar mereka juga bisa belajar dari kejadian ini",
+      "Menerima teguran tersebut dan mencoba menjadikannya sebagai pelajaran berharga tanpa perlu mengadukan pegawai lain yang turut bersalah",
     ],
   },
   {
-    //3
+    //2 baru
     id: 107,
     question:
-      "Anda adalah seorang orang tua baru dengan seorang anak yang masih belia. Di tengah perkembanagan zaaman dimana aliran informasi menyebar dengan cepat melalui platform-platform media sosial, upaya Anda untuk membentengi anak dari paham-paham radikalisme sejak dini adalah ...",
+      "Anda menerima perintah tugas ke luar kota. Kebetulan pekerjaan anda dikantor menumpuk dan harus diselesaikan. Maka tindakan yang akan anda lakukan adalah ...",
     options: [
-      "Menanamkan semangat kebangsaan dan toleransi",
-      "Selektif dalam memilih teman bermain kepada anak anda",
-      "Membatasi fitur smartphone anak Anda agar tidak mengakses konten radikalisme",
-      "Memberikan pemahaman agama yang terbaik dan benar secara moderat dan damai",
+      "Meminta atasan untuk memberikan perpanjangan waktu menylesaikan tugas tersebut",
+      "meminta atasan untuk keluar kota setelah anda menyelesaikan pekerjaan anda",
+      "Membawa pekerjaan tersebut ke luar kota. Sehingga dapat menyelesaikanya tepat waktu",
+      "Mengkordinasikan tugas yang dapat dipercayakan kepada rekan kerja, selain tidak menyalahi prosedur pekerjaaan dapat diselesaikan tepat waktu",
     ],
   },
   {
-    //3
+    //1 baru
     id: 108,
     question:
-      "Di era milenium ketiga ini perubahan dunia terjadi dengan cepet. Perubahan tersebut merambat dalam kehidupan sehari hari. Karena itu saya ...",
+      "Saya akan menghadiri pernikahan seorang kerabat dari luar kota, bersamaan dengan itu ada tugas ulangan sedangkan minggu lalu saya sudah membolos. Yang akan saya lakukan ...",
     options: [
-      "Mengikuti perkembangan teknologi dari media masa",
-      "Mempelajari cara pengoprasian komputer",
-      "Berusaha mempelajari bukku pengetahuan yang terbaru",
-      "Berusaha menguasai keterampilan di bidang teknologi informasi mutakhir",
+      "Mempersiapkan diri sejak awal dan membicarakannya dengan guru untuk mengikuti ulangan di hari lain",
+      "Belajar sungguh-sungguh dan inilah kesempatan untuk memperbaiki nilai",
+      "Belajar sungguh-sungguh sambil berdoa mudah-mudahan ada perubahan jadwal",
+      "Memilih pergi dan berusaha sebaik mungkin pada ulangan berikutnya",
     ],
   },
   {
-    //2
+    //0 baru
     id: 109,
     question:
-      "Anda bekerja sebagai konsultan pendidikan, banyak siswa dan orang tua yang bingung untuk menentukan jurusan. Sebagai konsultan yang handal yang akan Anda lakukan ...",
+      "Anda adalah seorang karyawna yang bekerja pada perusahaan yang bekerja pada perusahaa yang berkaitan dengan pelayanan masyarakat dan Anda sadar bahwa setiap individu memiliki kemampuan yang berbeda dalam memahami regulasi dan kebijakan pelayanan yang perusahaan Anda tetapkan sehinggga seringkali terjadi miskomunikasi ditambah lagi hal-hal teknis yang sering kali dikeluhkkan masyarakat karena mengganggu proses pelayanan perusahaan Anda. Olehkarena itu untuk lebih meningkatkan pelayanan maka ...",
     options: [
-      "Memberikan beberapa alternatife jurusan yang sangat dibutuhkan di dunia kerja",
-      "Menentukan jurusan yang akan memberikan keuntungan masa depan anak",
-      "Memberikan alternatif jurusan sesui dengan kemapuan siswan dan kemampuan finansial orang tua",
-      "Menyarankan agar melanjutkan pendidikan ke luar negeri",
+      "Perlu dibuatkan sebuah call center yang siap 24 jam untuk menerima semua pengaduan masyarakat",
+      "Email koresponden dibutuhkan agar operator bisa melayani seluruh pertanyaan yang masuk dari masyarakat seputar pelayanan",
+      "Menampatkan kotak saran di loket pelayanan untuk mengakomodir semua keluhan masyarakat",
+      "Mendirikan loket customer sevice sebagai tempaat masyarakat memperoleh informasi secara langsung",
     ],
   },
   {
-    //0
+    //3 baru
     id: 110,
     question:
-      "Seorang teman Anda bertugas di loket pelayanan tiba-tiba pingsan karena kelelahan akibat menerima banyak masyarakat yang datang. Anda yang sedang bekerja diminta menggantikan di loket karena menurut penilaian atasan tugas yang anda kerjakan tengggang waktunya masih lama. Apa yang akan sebaiknya anda lakukan?",
+      "Andi, teman karib Anda, melakukan kecurangan absensi. Maka Anda ...",
     options: [
-      "Menuju loket dan melayanu masyarakat",
-      "Melayanu di loket dan sambul juga menyelesaikan tugas sendiri",
-      "Mengerjaakan tugas secepat mungkin agar bisa bertugas di loket",
-      "Mencari teman lain yang bebanya lebih ringan untuk membantu",
+      "Mentoklelir sebab baru pertama kali ini melakukanya ",
+      "Rekan kerja yang lain juga melakukannya, jadi tidak masalah",
+      "Mengingatkan dan menegur",
+      "Menegur dan melaporkan apa adanya kepada atasan",
     ],
   },
 ];
